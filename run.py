@@ -271,7 +271,6 @@ def receiveEcoWitt():
     #     "runtime":""
     # }
 
-
     # List of fields we are interested in (for brevity some are excluded)
     fields = [
         ('baromabsin', 'AbsPressure'),
@@ -357,20 +356,22 @@ def receiveEcoWitt():
     }
 
     raw_data = {
-        'idx':  datetime.strptime(weather_data["dateutc"], "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%dT%H:%M:%S.%f"),
-        'delay':weather_data["interval"],
-        'hum_in':  weather_data["humidityin"],
-        'temp_in': weather_data['tempinf'],
-        'hum_out': weather_data['humidity'],
-        'temp_out': weather_data['tempf'],
-        'abs_pressure': weather_data['baromabsin'],
-        'wind_ave': weather_data['windspeedmph'],
-        'wind_gust': weather_data['windgustmph'],
-        'wind_dir': weather_data['winddir'],
-        'rain': weather_data['dailyrainin'],
-        'status': weather_data['dailyrainin'],
-        'illuminance': wm2_illuminance(weather_data['solarradiation']),
-        'uv': weather_data["uv"],
+        "idx": datetime.strptime(
+            weather_data["dateutc"], "%Y-%m-%d %H:%M:%S"
+        ).strftime("%Y-%m-%dT%H:%M:%S.%f"),
+        "delay": weather_data["interval"],
+        "hum_in": weather_data["humidityin"],
+        "temp_in": weather_data["tempinf"],
+        "hum_out": weather_data["humidity"],
+        "temp_out": weather_data["tempf"],
+        "abs_pressure": float(weather_data["baromabsin"]),
+        "wind_ave": weather_data["windspeedmph"],
+        "wind_gust": weather_data["windgustmph"],
+        "wind_dir": weather_data["winddir"],
+        "rain": float(weather_data["dailyrainin"]),
+        "status": 0.0,
+        "illuminance": wm2_illuminance(weather_data["solarradiation"]),
+        "uv": weather_data["uv"],
     }
 
     DATA_STORE.save_data(raw_data, datatype='raw')
