@@ -6,11 +6,12 @@ import json
 import logging
 from dotenv import load_dotenv
 import xml.etree.ElementTree as ET
-from flask import Flask, request, Response
+from flask import Flask, request
 from datetime import datetime, timedelta
 from logging.handlers import WatchedFileHandler
-import time
+import requests
 import ftplib
+import time
 import pytz
 from store import CustomWeatherStore
 
@@ -44,6 +45,7 @@ FTP_HOST = os.getenv('FTP_HOST')
 FTP_USER = os.getenv('FTP_USER')
 FTP_PASS = os.getenv('FTP_PASS')
 FTP_PATH = os.getenv('FTP_PATH')
+HASS_URL = os.getenv('HASS_URL')
 
 DATA_STORE = CustomWeatherStore(DATA_PATH)
 
@@ -230,13 +232,24 @@ def receiveEcoWitt():
 
     # logging.info the complete POST data for logging
     logging.info("{} - POST received from: {}".format(datetime.now(TIMEZONE), request.remote_addr))
-    
+   
     # Prepare the data structure
     weather_data = request.form.to_dict()
     formatted_datetime = datetime.now(TIMEZONE).strftime('%m/%d/%Y %H:%M')
     formatted_data = {
         formatted_datetime: {}
     }
+
+    # Forward the POST request to the other server
+    url = HASS_URL
+    try:
+        response = requests.post(url, data=weather_data)
+        if response.status_code == 200:
+            logging.info("{} - POST forwarded successfully to Home Assistant".format(datetime.now(TIMEZONE)))
+        else:
+            logging.info("{} - Failed to forward the POST request to Home Assistant".format(datetime.now(TIMEZONE)))
+    except Exception as e:
+        logging.error("{} - Error while forwarding POST request: {}".format(datetime.now(TIMEZONE), str(e)))
 
     # print(weather_data)
     # {
@@ -370,7 +383,7 @@ def receiveEcoWitt():
         "wind_dir": weather_data["winddir"],
         "rain": float(weather_data["dailyrainin"]),
         "status": 0.0,
-        "illuminance": wm2_illuminance(weather_data["solarradiation"]),
+        "illuminance": round(wm2_illuminance(weather_data["solarradiation"]), 2),
         "uv": weather_data["uv"],
     }
 
