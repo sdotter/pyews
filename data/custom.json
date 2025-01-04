@@ -1,0 +1,74 @@
+[
+    {
+        "id": "pressure",
+        "name": "Luchtdruk",
+        "data": [
+            [
+                1736007188000,
+                29.929
+            ]
+        ],
+        "index": 1,
+        "unit": " hPa"
+    },
+    {
+        "id": "wind_degree",
+        "name": "Windrichting",
+        "data": [
+            [
+                1736007188000,
+                136.0
+            ]
+        ],
+        "index": 4,
+        "unit": "°"
+    },
+    {
+        "id": "wind_gust",
+        "name": "Windvlaag",
+        "data": [
+            [
+                1736007188000,
+                1.24
+            ]
+        ],
+        "index": 3,
+        "unit": " m/s"
+    },
+    {
+        "id": "rain",
+        "name": "Neerslag",
+        "data": [
+            [
+                1736007188000,
+                0.0
+            ]
+        ],
+        "index": 2,
+        "unit": " mm"
+    },
+    {
+        "id": "solarradiation",
+        "name": "Zonnestraling",
+        "data": [
+            [
+                1736007188000,
+                0.0
+            ]
+        ],
+        "index": 5,
+        "unit": " W/m²"
+    },
+    {
+        "id": "temperature",
+        "name": "Temperatuur",
+        "data": [
+            [
+                1736007188000,
+                37.6
+            ]
+        ],
+        "index": 0,
+        "unit": "°C"
+    }
+]
