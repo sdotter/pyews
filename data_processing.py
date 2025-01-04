@@ -35,7 +35,7 @@ def save_to_24h_json(data):
     # Save the updated data back to the file
     with open(DATA_PATH + "/24h.json", 'w') as f:
         json.dump({"data": new_data}, f, indent=4)
-        logging.info("{} - Data successfully saved to 24h.json.".format(current_time))
+        logging.info("Data successfully saved to 24h.json")
 
 def save_to_1w_json(data):
     ''' Save the provided data to the 1w.json file, appending with max 1 week of data. '''
@@ -66,7 +66,7 @@ def save_to_1w_json(data):
     # Save the updated data back to the file
     with open(DATA_PATH + "/1w.json", 'w') as f:
         json.dump({"data": new_data}, f, indent=4)
-        logging.info("{} - Data successfully saved to 1w.json.".format(current_time))
+        logging.info("Data successfully saved to 1w.json")
 
 def save_to_1m_json(data):
     ''' Save the provided data to the 1m.json file, appending with max 1 month of data. '''
@@ -98,7 +98,7 @@ def save_to_1m_json(data):
     # Save the updated data back to the file
     with open(DATA_PATH + "/1m.json", 'w') as f:
         json.dump({"data": new_data}, f, indent=4)
-        logging.info("{} - Data successfully saved to 1m.json.".format(current_time))
+        logging.info("Data successfully saved to 1m.json")
 
 def save_to_custom_json(weather_data, timestamp_str):
     current_time = datetime.now(TIMEZONE)
@@ -182,7 +182,7 @@ def save_to_custom_json(weather_data, timestamp_str):
     with open(DATA_PATH + "/custom.json", 'w') as f:
         json.dump(result_data, f, indent=4, ensure_ascii=False)
 
-    logging.info("{} - Data successfully saved to custom.json.".format(current_time))
+    logging.info("Data successfully saved to custom.json")
 
 
 def populate_final_data(final_data, timestamp_ms, measurements):
@@ -218,7 +218,7 @@ def save_to_xml(data):
 
     tree = ET.ElementTree(root)
     tree.write(DATA_PATH + "/live.xml", encoding='utf-8', xml_declaration=True)
-    logging.info("{} - Data successfully saved to live.xml.".format(datetime.now(TIMEZONE)))
+    logging.info("Data successfully saved to live.xml")
 
 def should_process_data(interval_key, minutes):
     global LAST_SAVE_TIMES
@@ -254,12 +254,25 @@ def process_weather_data(weather_data):
 
     db_data_to_store = {
         'timestamp': weather_data["dateutc"],
-        'temperature': None,
-        'pressure': None,
-        'wind_gust': None,
+        'temp': None,
+        'temp_in': None,
+        'humidity': None,
+        'humidity_in': None,
+        'pressure_abs': None,
+        'pressure_rel': None,
+        'rain_rate': None,
+        'rain_event': None,
+        'rain_hourly': None,
+        'rain_daily': None,
+        'rain_weekly': None,
+        'rain_monthly': None,
+        'rain_yearly': None,
         'wind_degree': None,
-        'rain': None,
-        'solarradiation': None
+        'wind_gust': None,
+        'wind_gust_maxdaily': None,
+        'wind_speed': None,
+        'solarradiation': None,
+        'uv': None
     }
 
     xml_data_to_store = {
@@ -318,14 +331,28 @@ def process_weather_data(weather_data):
 
             formatted_data[formatted_datetime][json_key] = value
 
-    db_data_to_store['temperature'] = formatted_data[formatted_datetime]['TempOut']
-    db_data_to_store['pressure'] = float(weather_data['baromabsin'])
-    db_data_to_store['wind_gust'] = formatted_data[formatted_datetime]['WindGust']
-    db_data_to_store['wind_degree'] = formatted_data[formatted_datetime]['WindDirection']
-    db_data_to_store['rain'] = formatted_data[formatted_datetime]['Rain']
-    db_data_to_store['solarradiation'] = formatted_data[formatted_datetime]['SolarRadiation']
+    # Data object for stroing in the database
+    db_data_to_store['temp'] = formatted_data[formatted_datetime].get('TempOut')
+    db_data_to_store['temp_in'] = formatted_data[formatted_datetime].get('TempIn')
+    db_data_to_store['humidity'] = formatted_data[formatted_datetime].get('HumidityOut')
+    db_data_to_store['humidity_in'] = formatted_data[formatted_datetime].get('HumidityIn')
+    db_data_to_store['pressure_abs'] = float(weather_data.get('baromabsin', None))
+    db_data_to_store['pressure_rel'] = float(weather_data.get('baromrelin', None))
+    db_data_to_store['rain_rate'] = float(weather_data.get('rainratein', None))
+    db_data_to_store['rain_event'] = float(weather_data.get('eventrainin', None))
+    db_data_to_store['rain_hourly'] = float(weather_data.get('hourlyrainin', None))
+    db_data_to_store['rain_daily'] = float(weather_data.get('dailyrainin', None))
+    db_data_to_store['rain_weekly'] = float(weather_data.get('weeklyrainin', None))
+    db_data_to_store['rain_monthly']  = float(weather_data.get('monthlyrainin', None))
+    db_data_to_store['rain_yearly'] = float(weather_data.get('yearlyrainin', None))
+    db_data_to_store['wind_degree'] = formatted_data[formatted_datetime].get('WindDirection')
+    db_data_to_store['wind_gust'] = formatted_data[formatted_datetime].get('WindGust')
+    db_data_to_store['wind_gust_maxdaily'] = float(weather_data.get('maxdailygust', None))
+    db_data_to_store['wind_speed'] = float(weather_data.get('windspeedmph', None))
+    db_data_to_store['solarradiation'] = formatted_data[formatted_datetime].get('SolarRadiation')
+    db_data_to_store['uv'] = int(weather_data.get('uv', None))
 
-
+    # XML data object
     xml_data_to_store['hum_in'] =  formatted_data[formatted_datetime]['HumidityIn']
     xml_data_to_store['temp_in'] =  formatted_data[formatted_datetime]['TempIn']
     xml_data_to_store['hum_out'] =  formatted_data[formatted_datetime]['HumidityOut']
@@ -336,7 +363,7 @@ def process_weather_data(weather_data):
     xml_data_to_store['wind_dir'] =  formatted_data[formatted_datetime]['WindDirection']
     xml_data_to_store['rain'] =  formatted_data[formatted_datetime]['Rain']
 
-
+    # Raw data object
     raw_data_to_store['hum_in'] = weather_data["humidityin"]
     raw_data_to_store['temp_in'] = weather_data["tempinf"]
     raw_data_to_store['hum_out'] = weather_data["humidity"]

@@ -25,7 +25,7 @@ def receive_ecowitt():
     current_time = datetime.now(TIMEZONE)
 
     # logging.info the complete POST data for logging
-    logging.info("{} - POST received from: {}".format(datetime.now(TIMEZONE), request.remote_addr))
+    logging.info("POST received from: {}".format(request.remote_addr))
    
     # Prepare the data structure
     weather_data = request.form.to_dict()
@@ -39,11 +39,11 @@ def receive_ecowitt():
     try:
         response = requests.post(url, data=weather_data)
         if response.status_code == 200:
-            logging.info("{} - POST forwarded successfully to Home Assistant".format(datetime.now(TIMEZONE)))
+            logging.info("POST forwarded successfully to Home Assistant")
         else:
-            logging.info("{} - Failed to forward the POST request to Home Assistant".format(datetime.now(TIMEZONE)))
+            logging.info("Failed to forward the POST request to Home Assistant")
     except Exception as e:
-        logging.error("{} - Error while forwarding POST request: {}".format(datetime.now(TIMEZONE), str(e)))
+        logging.error("Error while forwarding POST request: {}".format(str(e)))
 
     # Save to SQLite database
     save_to_db(db_data_to_store)
@@ -56,22 +56,22 @@ def receive_ecowitt():
     upload_to_ftp(DATA_PATH + "/live.xml", FTP_PATH + '/live.xml')
     
     if should_process_data("5min", 5):
-        logging.info("{} - 5-minute condition met. Preparing to save data...".format(datetime.now(TIMEZONE)))
+        logging.info("5-minute condition met. Preparing to save data...")
         save_to_24h_json(formatted_data)  
         upload_to_ftp(DATA_PATH + "/24h.json", FTP_PATH + '/24h.json')
 
     if should_process_data("25min", 25):
-        logging.info("{} - 25-minute condition met. Preparing to save data...".format(datetime.now(TIMEZONE)))
+        logging.info("25-minute condition met. Preparing to save data...")
         save_to_1w_json(formatted_data)  
         upload_to_ftp(DATA_PATH + "/1w.json", FTP_PATH + '/1w.json')
 
     if should_process_data("50min", 50):
-        logging.info("{} - 50-minute condition met. Preparing to save data...".format(datetime.now(TIMEZONE)))
+        logging.info("50-minute condition met. Preparing to save data...")
         save_to_1m_json(formatted_data)  
         upload_to_ftp(DATA_PATH + "/1m.json", FTP_PATH + '/1m.json')
 
     if should_process_data("60sec", 1):
-        logging.info("{} - 60-sec condition met. Preparing to save data...".format(datetime.now(TIMEZONE)))
+        logging.info("60-sec condition met. Preparing to save data...")
         save_to_custom_json({
             "temperature": weather_data["tempf"],
             "pressure": float(weather_data["baromabsin"]),
@@ -83,10 +83,10 @@ def receive_ecowitt():
         upload_to_ftp(DATA_PATH + "/custom.json", FTP_PATH + '/custom.json')
 
 
-    logging.info("{} - POST processing done!".format(current_time))
+    logging.info("POST processing done!")
 
     return '', 200
 
 if __name__ == "__main__":
-    logging.info("{} - Script is running...".format(datetime.now(TIMEZONE)))
+    logging.info("Script is running...")
     app.run(debug=True, host="0.0.0.0", port=8090, use_reloader=False)

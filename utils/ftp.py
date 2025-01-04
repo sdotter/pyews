@@ -1,7 +1,7 @@
 import ftplib
 import logging
 from datetime import datetime
-from globals import TIMEZONE, FTP_HOST, FTP_USER, FTP_PASS
+from globals import FTP_HOST, FTP_USER, FTP_PASS
 
 def upload_to_ftp(filename, remote_path):
     """Upload a file to an FTP server."""
@@ -10,9 +10,9 @@ def upload_to_ftp(filename, remote_path):
         ftp = ftplib.FTP(FTP_HOST, FTP_USER, FTP_PASS)
         with open(filename, 'rb') as file:
             ftp.storbinary('STOR {}'.format(remote_path), file)
-            logging.info("{} - Uploaded {} successfully...".format(datetime.now(TIMEZONE), filename.split('/')[-1]))
+            logging.info("Uploaded {} successfully...".format(filename.split('/')[-1]))
     except Exception as e:
-        logging.info("{} - FTP operation failed with error: {}".format(datetime.now(TIMEZONE), e))
+        logging.info("FTP operation failed with error: {}".format(e))
     finally:
         if ftp:
             ftp.quit()
