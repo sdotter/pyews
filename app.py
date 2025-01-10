@@ -6,7 +6,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 from flask import Flask, request
 from utils.logging import logging, configure_logging
-from data_processing import process_weather_data, should_process_data, save_to_24h_json, save_to_1w_json, save_to_1m_json, save_to_custom_json, save_to_xml
+from data_processing import process_weather_data, should_process_data, save_to_24h_json, save_to_1w_json, save_to_1m_json, save_to_1y_json, save_to_custom_json, save_to_xml
 from utils.ftp import upload_to_ftp
 from database import save_to_db
 from globals import *
@@ -26,7 +26,7 @@ def receive_ecowitt():
 
     # logging.info the complete POST data for logging
     logging.info("POST received from: {}".format(request.remote_addr))
-   
+
     # Prepare the data structure
     weather_data = request.form.to_dict()
     raw_data_to_store, xml_data_to_store, db_data_to_store, formatted_data = process_weather_data(weather_data)
@@ -58,7 +58,16 @@ def receive_ecowitt():
     if should_process_data("5min", 5):
         logging.info("5-minute condition met. Preparing to save data...")
         save_to_24h_json(formatted_data)  
+        save_to_custom_json({
+            "temperature": raw_data_to_store["temp_out"],
+            "pressure": raw_data_to_store["abs_pressure"],
+            "rain": raw_data_to_store["rain"],
+            "wind_gust": raw_data_to_store["wind_gust"],
+            "wind_degree": raw_data_to_store["wind_dir"],
+            "solarradiation": raw_data_to_store["illuminance"],
+        }, timestamp_str)  
         upload_to_ftp(DATA_PATH + "/24h.json", FTP_PATH + '/24h.json')
+        upload_to_ftp(DATA_PATH + "/custom.json", FTP_PATH + '/custom.json')
 
     if should_process_data("25min", 25):
         logging.info("25-minute condition met. Preparing to save data...")
@@ -67,20 +76,13 @@ def receive_ecowitt():
 
     if should_process_data("50min", 50):
         logging.info("50-minute condition met. Preparing to save data...")
-        save_to_1m_json(formatted_data)  
+        save_to_1m_json(formatted_data)
+        save_to_1y_json(formatted_data)    
+        upload_to_ftp(DATA_PATH + "/1y.json", FTP_PATH + '/1y.json')
         upload_to_ftp(DATA_PATH + "/1m.json", FTP_PATH + '/1m.json')
 
     if should_process_data("60sec", 1):
         logging.info("60-sec condition met. Preparing to save data...")
-        save_to_custom_json({
-            "temperature": weather_data["tempf"],
-            "pressure": float(weather_data["baromabsin"]),
-            "wind_gust": weather_data["windgustmph"],
-            "wind_degree": weather_data["winddir"],
-            "rain": float(weather_data["rainratein"]),
-            "solarradiation": weather_data["solarradiation"],
-        }, timestamp_str)  
-        upload_to_ftp(DATA_PATH + "/custom.json", FTP_PATH + '/custom.json')
 
 
     logging.info("POST processing done!")

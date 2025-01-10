@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "01/10/2025 19:30": {
+                "WindChill": null,
+                "WindAvg": 2,
+                "HumidityIn": 58,
+                "HumidityOut": 91,
+                "Rain": 0.0,
+                "TempIn": 15.5,
+                "DewPoint": 2,
+                "TempOut": 3.0,
+                "WindGust": 5,
+                "FeelsLike": 3,
+                "AbsPressure": 1018.7,
+                "SolarRadiation": 0.0,
+                "WindDirection": "NW"
+            }
+        }
+    ]
+}

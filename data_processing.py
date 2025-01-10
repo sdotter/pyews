@@ -1,9 +1,10 @@
 import json
+import math
 import time
 import logging
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-from utils.conversions import degrees_to_wind_direction, f_to_c, feels_like, get_dew_point_c, inHg_to_hPa, mph_to_kph, wind_chill
+from utils.conversions import degrees_to_wind_direction, f_to_c, feels_like, get_dew_point_c, inHg_to_hPa, inches_to_mm, mph_to_kph, wind_chill
 from globals import *
 
 def save_to_24h_json(data):
@@ -100,24 +101,49 @@ def save_to_1m_json(data):
         json.dump({"data": new_data}, f, indent=4)
         logging.info("Data successfully saved to 1m.json")
 
+def save_to_1y_json(data):
+    ''' Save the provided data to the 1y.json file, appending with max 1 month of data. '''
+
+    current_time = datetime.now(TIMEZONE)
+       
+    # Attempt to read the existing data
+    try:
+        with open(DATA_PATH + "/1y.json", 'r') as f:
+            file_data = json.load(f)
+            existing_data = file_data.get("data", [])
+    except Exception:
+        existing_data = []
+
+    # Filtering function to remove records older than 1 year
+    one_year_ago = current_time - timedelta(days=365)  # Rough approximation of one year
+
+    new_data = []
+    for record in existing_data:
+        for timestamp_str, _ in record.items():
+            timestamp = datetime.strptime(timestamp_str, "%m/%d/%Y %H:%M").replace(tzinfo=TIMEZONE)
+            if timestamp > one_year_ago:
+                new_data.append(record)
+
+    # Add the new data
+    formatted_datetime = current_time.strftime('%m/%d/%Y %H:%M')
+    new_data.append(data)
+    
+    # Save the updated data back to the file
+    with open(DATA_PATH + "/1y.json", 'w') as f:
+        json.dump({"data": new_data}, f, indent=4)
+        logging.info("Data successfully saved to 1y.json")
+
 def save_to_custom_json(weather_data, timestamp_str):
     current_time = datetime.now(TIMEZONE)
 
     # Initialize final data structure
     final_data = {
-        "solarradiation": {
-            "id": "solarradiation",
-            "name": "Zonnestraling",
+        "temperature": {
+            "id": "temperature",
+            "name": "Temperatuur",
             "data": [],
-            "index": 5,
-            "unit": " W/m\u00b2"
-        },
-        "rain": {
-            "id": "rain",
-            "name": "Neerslag",
-            "data": [],
-            "index": 2,
-            "unit": " mm"
+            "index": 0,
+            "unit": "°C"
         },
         "pressure": {
             "id": "pressure",
@@ -126,26 +152,33 @@ def save_to_custom_json(weather_data, timestamp_str):
             "index": 1,
             "unit": " hPa"
         },
-        "temperature": {
-            "id": "temperature",
-            "name": "Temperatuur",
+        "rain": {
+            "id": "rain",
+            "name": "Neerslag",
             "data": [],
-            "index": 0,
-            "unit": "\u00b0C"
+            "index": 2,
+            "unit": " mm"
         },
         "wind_gust": {
             "id": "wind_gust",
             "name": "Windvlaag",
             "data": [],
             "index": 3,
-            "unit": " m/s"
+            "unit": " km/h"
         },
         "wind_degree": {
             "id": "wind_degree",
             "name": "Windrichting",
             "data": [],
             "index": 4,
-            "unit": "\u00b0"
+            "unit": "°"
+        },
+        "solarradiation": {
+            "id": "solarradiation",
+            "name": "Zonnestraling",
+            "data": [],
+            "index": 5,
+            "unit": " W/m²"
         }
     }
 
@@ -176,7 +209,7 @@ def save_to_custom_json(weather_data, timestamp_str):
     except ValueError:
         logging.error("Invalid timestamp format in new record: {}".format(timestamp_str))
 
-    result_data = list(final_data.values())
+    result_data = sorted(list(final_data.values()), key=lambda x: x['index'])
 
     # Write back to the JSON file
     with open(DATA_PATH + "/custom.json", 'w') as f:
@@ -189,19 +222,11 @@ def populate_final_data(final_data, timestamp_ms, measurements):
     """ Helper function to populate the final_data with timestamped measurements """
     for key, value in measurements.items():
         if key in final_data:
-            if key == "wind_gust":
-                try:
-                    value = float(value)  # Convert string to float
-                    wind_gust_mps = value * 1000 / 3600
-                    final_data[key]["data"].append([timestamp_ms, round(wind_gust_mps, 2)])
-                except ValueError:
-                    logging.error("Invalid value for wind_gust: {}".format(value))
-            else:
-                try:
-                    value = float(value)  # Convert string to float for other measurements if necessary
-                    final_data[key]["data"].append([timestamp_ms, value])
-                except ValueError:
-                    logging.error("Invalid value for {}: {}".format(key, value))
+            try:
+                value = float(value)  # Convert string to float for other measurements if necessary
+                final_data[key]["data"].append([timestamp_ms, value])
+            except ValueError:
+                logging.error("Invalid value for {}: {}".format(key, value))
 
 def save_to_xml(data):
     '''Save the provided data to an XML file.'''
@@ -331,49 +356,75 @@ def process_weather_data(weather_data):
 
             formatted_data[formatted_datetime][json_key] = value
 
+
+    temp = round(f_to_c(float(weather_data.get('tempf', 0))), 1)
+    wind_speed = int(mph_to_kph(weather_data.get('windspeedmph', 0)))
+    humidity = int(float(weather_data.get('humidity', 0)))
+
+    # 'DewPoint' can be calculated from temperature and humidity
+    formatted_data[formatted_datetime]['DewPoint'] = (
+        int(round(get_dew_point_c(temp, humidity)))
+        if temp is not None and humidity is not None
+        else None
+    )
+    
+    # 'WindChill' can be calculated from temperature and wind speed
+    formatted_data[formatted_datetime]['WindChill'] = (
+        int(round(wind_chill(temp, wind_speed)))
+        if temp is not None and wind_speed is not None and temp <= 10 and wind_speed > 4.8
+        else None
+    )
+    
+    # 'FeelsLike' can be calculated from temperature, humidity, and wind speed
+    formatted_data[formatted_datetime]['FeelsLike'] = (
+        int(round(feels_like(temp, humidity, wind_speed)))
+        if temp is not None and humidity is not None and wind_speed is not None
+        else None
+    )
+
     # Data object for stroing in the database
-    db_data_to_store['temp'] = formatted_data[formatted_datetime].get('TempOut')
-    db_data_to_store['temp_in'] = formatted_data[formatted_datetime].get('TempIn')
-    db_data_to_store['humidity'] = formatted_data[formatted_datetime].get('HumidityOut')
-    db_data_to_store['humidity_in'] = formatted_data[formatted_datetime].get('HumidityIn')
-    db_data_to_store['pressure_abs'] = float(weather_data.get('baromabsin', None))
-    db_data_to_store['pressure_rel'] = float(weather_data.get('baromrelin', None))
-    db_data_to_store['rain_rate'] = float(weather_data.get('rainratein', None))
-    db_data_to_store['rain_event'] = float(weather_data.get('eventrainin', None))
-    db_data_to_store['rain_hourly'] = float(weather_data.get('hourlyrainin', None))
-    db_data_to_store['rain_daily'] = float(weather_data.get('dailyrainin', None))
-    db_data_to_store['rain_weekly'] = float(weather_data.get('weeklyrainin', None))
-    db_data_to_store['rain_monthly']  = float(weather_data.get('monthlyrainin', None))
-    db_data_to_store['rain_yearly'] = float(weather_data.get('yearlyrainin', None))
-    db_data_to_store['wind_degree'] = formatted_data[formatted_datetime].get('WindDirection')
-    db_data_to_store['wind_gust'] = formatted_data[formatted_datetime].get('WindGust')
-    db_data_to_store['wind_gust_maxdaily'] = float(weather_data.get('maxdailygust', None))
-    db_data_to_store['wind_speed'] = float(weather_data.get('windspeedmph', None))
-    db_data_to_store['solarradiation'] = formatted_data[formatted_datetime].get('SolarRadiation')
-    db_data_to_store['uv'] = int(weather_data.get('uv', None))
+    db_data_to_store['temp'] = round(f_to_c(float(weather_data.get('tempf', 0))), 1)
+    db_data_to_store['temp_in'] = round(f_to_c(float(weather_data.get('tempinf', 0))), 1)
+    db_data_to_store['humidity'] = int(float(weather_data.get('humidity', 0)))
+    db_data_to_store['humidity_in'] = int(float(weather_data.get('humidityin', 0)))
+    db_data_to_store['pressure_abs'] = round(inHg_to_hPa(float(weather_data.get('baromabsin', 0))), 1)
+    db_data_to_store['pressure_rel'] = round(inHg_to_hPa(float(weather_data.get('baromrelin', 0))), 1)
+    db_data_to_store['rain_rate'] = int(inches_to_mm(float(weather_data.get('rainratein', 0.0))))
+    db_data_to_store['rain_event'] = int(inches_to_mm(float(weather_data.get('eventrainin', 0.0))))
+    db_data_to_store['rain_hourly'] = int(inches_to_mm(float(weather_data.get('hourlyrainin', 0.0))))
+    db_data_to_store['rain_daily'] = int(inches_to_mm(float(weather_data.get('dailyrainin', 0.0))))
+    db_data_to_store['rain_weekly'] = int(inches_to_mm(float(weather_data.get('weeklyrainin', 0.0))))
+    db_data_to_store['rain_monthly']  = int(inches_to_mm(float(weather_data.get('monthlyrainin', 0.0))))
+    db_data_to_store['rain_yearly'] = int(inches_to_mm(float(weather_data.get('yearlyrainin', 0.0))))
+    db_data_to_store['wind_degree'] = round(float(weather_data["winddir"]), 1)
+    db_data_to_store['wind_gust'] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
+    db_data_to_store['wind_gust_maxdaily'] = int(mph_to_kph(weather_data.get('maxdailygust', 0)))
+    db_data_to_store['wind_speed'] = int(mph_to_kph(weather_data.get('windspeedmph', 0)))
+    db_data_to_store['solarradiation'] = round(float(weather_data.get('solarradiation', 0)), 1)
+    db_data_to_store['uv'] = int(round(float(weather_data.get('uv', 0.0))))
 
     # XML data object
-    xml_data_to_store['hum_in'] =  formatted_data[formatted_datetime]['HumidityIn']
-    xml_data_to_store['temp_in'] =  formatted_data[formatted_datetime]['TempIn']
-    xml_data_to_store['hum_out'] =  formatted_data[formatted_datetime]['HumidityOut']
-    xml_data_to_store['temp_out'] =  formatted_data[formatted_datetime]['TempOut']
-    xml_data_to_store['abs_pressure'] =  formatted_data[formatted_datetime]['AbsPressure']
-    xml_data_to_store['wind_ave'] =  formatted_data[formatted_datetime]['WindAvg']
-    xml_data_to_store['wind_gust'] =  formatted_data[formatted_datetime]['WindGust']
-    xml_data_to_store['wind_dir'] =  formatted_data[formatted_datetime]['WindDirection']
-    xml_data_to_store['rain'] =  formatted_data[formatted_datetime]['Rain']
+    xml_data_to_store['hum_in'] = int(float(weather_data.get('humidityin', 0)))
+    xml_data_to_store['temp_in'] = round(f_to_c(float(weather_data.get('tempinf', 0))), 1)
+    xml_data_to_store['hum_out'] = int(float(weather_data.get('humidity', 0)))
+    xml_data_to_store['temp_out'] = round(f_to_c(float(weather_data.get('tempf', 0))), 1)
+    xml_data_to_store['abs_pressure'] = round(inHg_to_hPa(float(weather_data.get('baromabsin', 0))), 1)
+    xml_data_to_store['wind_ave'] = int(mph_to_kph(weather_data.get('windspeedmph', 0)))
+    xml_data_to_store['wind_gust'] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
+    xml_data_to_store['wind_dir'] = degrees_to_wind_direction(weather_data["winddir"])
+    xml_data_to_store['rain'] = int(inches_to_mm(float(weather_data.get('dailyrainin', 0.0))))
 
     # Raw data object
-    raw_data_to_store['hum_in'] = weather_data["humidityin"]
-    raw_data_to_store['temp_in'] = weather_data["tempinf"]
-    raw_data_to_store['hum_out'] = weather_data["humidity"]
-    raw_data_to_store['temp_out'] = weather_data["tempf"]
-    raw_data_to_store['abs_pressure'] = float(weather_data["baromabsin"])
-    raw_data_to_store['wind_ave'] = weather_data["windspeedmph"]
-    raw_data_to_store['wind_gust'] = weather_data["windgustmph"]
-    raw_data_to_store['wind_dir'] = weather_data["winddir"]
-    raw_data_to_store['rain'] = float(weather_data["rainratein"])
-    raw_data_to_store['illuminance'] = weather_data["solarradiation"]
-    raw_data_to_store['uv'] = weather_data["uv"]
+    raw_data_to_store['hum_in'] = int(float(weather_data.get('humidityin', 0)))
+    raw_data_to_store['temp_in'] = round(f_to_c(float(weather_data.get('tempinf', 0))), 1)
+    raw_data_to_store['hum_out'] = int(float(weather_data.get('humidity', 0)))
+    raw_data_to_store['temp_out'] = round(f_to_c(float(weather_data.get('tempf', 0))), 1)
+    raw_data_to_store['abs_pressure'] = round(inHg_to_hPa(float(weather_data.get('baromabsin', 0))), 1)
+    raw_data_to_store['wind_ave'] = int(mph_to_kph(weather_data.get('windspeedmph', 0)))
+    raw_data_to_store['wind_gust'] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
+    raw_data_to_store['wind_dir'] = int(weather_data["winddir"])
+    raw_data_to_store['rain'] = int(inches_to_mm(float(weather_data.get('dailyrainin ', 0.0))))
+    raw_data_to_store['illuminance'] = round(float(weather_data.get('solarradiation', 0)), 1)
+    raw_data_to_store['uv'] = int(round(float(weather_data.get('uv', 0.0))))
 
     return raw_data_to_store, xml_data_to_store, db_data_to_store, formatted_data

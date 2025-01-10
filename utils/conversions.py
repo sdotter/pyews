@@ -33,7 +33,11 @@ def wm2_illuminance(wm2):
 def mph_to_kph(mph):
     ''' Convert speed from miles per hour (mph) to kilometers per hour (kph).
     '''
-    return mph * 1.60934
+    try:
+        mph = float(mph)
+        return mph * 1.60934
+    except (ValueError, TypeError):
+        return 0
     
 def f_to_c(fahrenheit):
     ''' Convert temperature from Fahrenheit to Celsius.
@@ -235,8 +239,12 @@ def degrees_to_wind_direction(degrees):
         "N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
         "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"
     ]
-    index = int(round(degrees / 22.5)) % 16  # Ensure the index is an integer
-    return directions[index]
+    try:
+        degrees = float(degrees)
+        index = int(round(degrees / 22.5)) % 16
+        return directions[index]
+    except (ValueError, TypeError):
+        return None
     
 def winddir_degrees(pts):
     "Convert wind direction from 0..15 to degrees"
