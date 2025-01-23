@@ -61,7 +61,7 @@ def receive_ecowitt():
         save_to_custom_json({
             "temperature": raw_data_to_store["temp_out"],
             "pressure": raw_data_to_store["abs_pressure"],
-            "rain": raw_data_to_store["rain"],
+            "rain": raw_data_to_store["rain_rate"],
             "wind_gust": raw_data_to_store["wind_gust"],
             "wind_degree": raw_data_to_store["wind_dir"],
             "solarradiation": raw_data_to_store["illuminance"],
