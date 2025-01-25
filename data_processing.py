@@ -300,6 +300,15 @@ def process_weather_data(weather_data):
         'uv': None
     }
 
+    raw_data_to_custom = {
+        'temperature': None,
+        'pressure': None,
+        'rain': None,
+        'wind_gust': None,
+        'wind_degree': None,
+        'solarradiation': None,
+    }
+
     xml_data_to_store = {
         "hum_in": None,
         "temp_in": None,
@@ -427,4 +436,11 @@ def process_weather_data(weather_data):
     raw_data_to_store['illuminance'] = round(float(weather_data.get('solarradiation', 0)), 1)
     raw_data_to_store['uv'] = int(round(float(weather_data.get('uv', 0.0))))
 
-    return raw_data_to_store, xml_data_to_store, db_data_to_store, formatted_data
+    raw_data_to_custom["temperature"] = round(f_to_c(float(weather_data.get('tempf', 0))), 1);
+    raw_data_to_custom["pressure"] = round(inHg_to_hPa(float(weather_data.get('baromabsin', 0))), 1)
+    raw_data_to_custom["rain"] = round(float(inches_to_mm(float(weather_data.get('dailyrainin', 0.0)))), 1)
+    raw_data_to_custom["wind_gust"] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
+    raw_data_to_custom["wind_degree"] = round(float(weather_data["winddir"]), 1)
+    raw_data_to_custom["solarradiation"] = round(float(weather_data.get('solarradiation', 0)), 1)
+
+    return raw_data_to_store, raw_data_to_custom, xml_data_to_store, db_data_to_store, formatted_data

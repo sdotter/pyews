@@ -29,7 +29,7 @@ def receive_ecowitt():
 
     # Prepare the data structure
     weather_data = request.form.to_dict()
-    raw_data_to_store, xml_data_to_store, db_data_to_store, formatted_data = process_weather_data(weather_data)
+    raw_data_to_store, raw_data_to_custom, xml_data_to_store, db_data_to_store, formatted_data = process_weather_data(weather_data)
 
     # Example extracting the timestamp directly from the incoming data payload
     timestamp_str = weather_data.get("dateutc", None)
@@ -59,15 +59,17 @@ def receive_ecowitt():
         logging.info("5-minute condition met. Preparing to save data...")
         save_to_24h_json(formatted_data)  
         save_to_custom_json({
-            "temperature": raw_data_to_store["temp_out"],
-            "pressure": raw_data_to_store["abs_pressure"],
-            "rain": raw_data_to_store["rain_rate"],
-            "wind_gust": raw_data_to_store["wind_gust"],
-            "wind_degree": raw_data_to_store["wind_dir"],
-            "solarradiation": raw_data_to_store["illuminance"],
+            "temperature": raw_data_to_custom["temperature"],
+            "pressure": raw_data_to_custom["pressure"],
+            "rain": raw_data_to_custom["rain"],
+            "wind_gust": raw_data_to_custom["wind_gust"],
+            "wind_degree": raw_data_to_custom["wind_degree"],
+            "solarradiation": raw_data_to_custom["solarradiation"],
         }, timestamp_str)  
+
         upload_to_ftp(DATA_PATH + "/24h.json", FTP_PATH + '/24h.json')
         upload_to_ftp(DATA_PATH + "/custom.json", FTP_PATH + '/custom.json')
+        upload_to_ftp(DATA_PATH + '/weather_data.db', FTP_PATH + '/weather_data.db')
 
     if should_process_data("25min", 25):
         logging.info("25-minute condition met. Preparing to save data...")
@@ -83,7 +85,6 @@ def receive_ecowitt():
 
     if should_process_data("60sec", 1):
         logging.info("60-sec condition met. Preparing to save data...")
-
 
     logging.info("POST processing done!")
 
