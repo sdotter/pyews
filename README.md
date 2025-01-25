@@ -23,19 +23,19 @@ pip install -r requirements.txt
 
 To use this repository, follow these steps:
 
-1. Connect your Ecowitt weather station.
-2. Configure the settings in the `config.json` file.
-3. Run the data collection script:
+Clone the repository and navigate to the project directory.
+
+Create a copy of the `.env.example` file and rename it to `.env`.
+
+Fill in the required environment variables in the .env file.
+
+Run the Flask application:
 
 ```bash
-python collect_data.py
+python3 app.py
 ```
 
-4. Process and analyze the collected data using pywws:
-
-```bash
-python analyze_data.py
-```
+This will start the server and process incoming data from your Ecowitt weather station.
 
 ## Contributing
 
