@@ -188,6 +188,12 @@ def save_to_custom_json(weather_data, timestamp_str):
             existing_data = json.load(f)
     except FileNotFoundError:
         existing_data = list(final_data.values())
+    except json.JSONDecodeError as e:
+        logging.error("JSON decoding error while loading existing data: {}".format(e))
+        existing_data = list(final_data.values())  # Reset to initial structure
+    except Exception as e:
+        logging.error("An error occurred while reading JSON: {}".format(e))
+        existing_data = list(final_data.values())  # Reset to initial structure
 
     # Calculate cutoff time for 24 hours ago
     cutoff_time = current_time - timedelta(hours=24)
@@ -200,8 +206,8 @@ def save_to_custom_json(weather_data, timestamp_str):
                 if timestamp >= cutoff_time:
                     populate_final_data(final_data, timestamp_ms, {metric["id"]: value})
 
+    # Handle new data
     try:
-        # Correct the format string to match your timestamp
         timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=TIMEZONE)
         if timestamp >= cutoff_time:
             timestamp_ms = int(timestamp.timestamp() * 1000)
@@ -212,21 +218,25 @@ def save_to_custom_json(weather_data, timestamp_str):
     result_data = sorted(list(final_data.values()), key=lambda x: x['index'])
 
     # Write back to the JSON file
-    with open(DATA_PATH + "/custom.json", 'w') as f:
-        json.dump(result_data, f, indent=4, ensure_ascii=False)
-
-    logging.info("Data successfully saved to custom.json")
+    try:
+        with open(DATA_PATH + "/custom.json", 'w') as f:
+            json.dump(result_data, f, indent=4, ensure_ascii=False)
+        logging.info("Data successfully saved to custom.json")
+    except Exception as e:
+        logging.error("An error occurred while writing to JSON: {}".format(e))
 
 
 def populate_final_data(final_data, timestamp_ms, measurements):
-    """ Helper function to populate the final_data with timestamped measurements """
+    """Helper function to populate final_data with timestamped measurements."""
     for key, value in measurements.items():
         if key in final_data:
             try:
-                value = float(value)  # Convert string to float for other measurements if necessary
+                value = float(value)  # Convert string to float for measurements
                 final_data[key]["data"].append([timestamp_ms, value])
             except ValueError:
-                logging.error("Invalid value for {}: {}".format(key, value))
+                logging.error("Invalid value for {}: {}; unable to convert to float.".format(key, value))
+            except Exception as e:
+                logging.error("Unexpected error when processing {}: {}; error: {}".format(key, value, str(e)))
 
 def save_to_xml(data):
     '''Save the provided data to an XML file.'''
