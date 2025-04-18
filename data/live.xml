@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<meteo><timestamp>1744823872</timestamp><wind_dir>W</wind_dir><wind_gust>9</wind_gust><hum_out>58</hum_out><hum_in>48</hum_in><temp_out>12.6</temp_out><wind_ave>4</wind_ave><temp_in>18.4</temp_in><rain>0.0</rain><abs_pressure>1009.7</abs_pressure></meteo>
+<meteo><timestamp>1744991081</timestamp><hum_in>51</hum_in><temp_in>18.2</temp_in><hum_out>30</hum_out><temp_out>17.8</temp_out><abs_pressure>1011.4</abs_pressure><wind_ave>4</wind_ave><wind_gust>9</wind_gust><wind_dir>WSW</wind_dir><rain>0.0</rain></meteo>

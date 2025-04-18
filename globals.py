@@ -29,3 +29,20 @@ FTP_PATH = os.getenv('FTP_PATH')
 HASS_URL = os.getenv('HASS_URL')
 
 DATA_STORE = CustomWeatherStore(DATA_PATH)
+
+# Database configuratie voor MySQL
+MYSQL_CONFIG = {
+    'host': os.getenv('MYSQL_HOST'),
+    'user': os.getenv('MYSQL_USER'),
+    'password': os.getenv('MYSQL_PASSWORD'),
+    'database': os.getenv('MYSQL_DATABASE'),
+    'port': 3306
+}
+
+# MySQL database only accessible via SSH tunnel
+SSH_CONFIG = {
+    'ssh_host': os.getenv('SSH_HOST'),
+    'ssh_port': os.getenv('SSH_PORT'),
+    'ssh_username': os.getenv('SSH_USER'),
+    'ssh_password': os.getenv('SSH_PASSWORD'),
+}

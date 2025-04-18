@@ -1,14 +1,16 @@
 
 import os
 
+import pymysql
 import requests
 from datetime import datetime
 from dotenv import load_dotenv
 from flask import Flask, request
+from sshtunnel import SSHTunnelForwarder
 from utils.logging import logging, configure_logging
 from data_processing import process_weather_data, should_process_data, save_to_24h_json, save_to_1w_json, save_to_1m_json, save_to_1y_json, save_to_custom_json, save_to_xml
 from utils.ftp import upload_to_ftp
-from database import save_to_db
+from database import save_to_db, import_sqlite_to_mysql, table_exists
 from globals import *
 
 app = Flask(__name__)
@@ -17,6 +19,39 @@ load_dotenv(os.path.join(os.path.dirname(os.path.realpath(__file__)), '.env'))
 
 # Configure logging
 configure_logging()
+
+def import_from_sqlite_if_table_missing():
+    """Check MySQL table and import from SQLite if table doesn't exist (over SSH tunnel)."""
+    
+    mysql_port = MYSQL_CONFIG['port']
+    if not isinstance(mysql_port, int):
+        mysql_port = int(mysql_port)
+
+    ssh_server = SSHTunnelForwarder(
+        (SSH_CONFIG['ssh_host'], int(SSH_CONFIG['ssh_port'])),
+        ssh_username=SSH_CONFIG['ssh_username'],
+        ssh_password=SSH_CONFIG['ssh_password'],
+        remote_bind_address=(MYSQL_CONFIG['host'], mysql_port),
+        local_bind_address=('127.0.0.1', 3306)
+    )
+
+    ssh_server.start()
+
+    mysql_connection = pymysql.connect(
+        host='127.0.0.1',
+        user=MYSQL_CONFIG['user'],
+        password=MYSQL_CONFIG['password'],
+        db=MYSQL_CONFIG['database'],
+        port=ssh_server.local_bind_port
+    )
+
+    try:
+        if not table_exists(mysql_connection):
+            logging.info("Importing data from SQLite to MySQL!")
+            import_sqlite_to_mysql(mysql_connection)
+    finally:
+        mysql_connection.close()
+        ssh_server.stop()
 
 @app.route('/data/report/', methods=['POST'])
 def receive_ecowitt():
@@ -45,8 +80,14 @@ def receive_ecowitt():
     except Exception as e:
         logging.error("Error while forwarding POST request: {}".format(str(e)))
 
+    # Import from SQLite to MySQL if the table is missing
+    import_from_sqlite_if_table_missing()
+
     # Save to SQLite database
-    save_to_db(db_data_to_store)
+    save_to_db(db_data_to_store, 'sqlite')
+
+    # Save to MySQL database
+    save_to_db(db_data_to_store, 'mysql')
 
     # Save to local storage
     DATA_STORE.save_data(raw_data_to_store, datatype='raw')
@@ -69,7 +110,9 @@ def receive_ecowitt():
 
         upload_to_ftp(DATA_PATH + "/24h.json", FTP_PATH + '/24h.json')
         upload_to_ftp(DATA_PATH + "/custom.json", FTP_PATH + '/custom.json')
-        upload_to_ftp(DATA_PATH + '/weather_data.db', FTP_PATH + '/weather_data.db')
+        
+        # Upload SQLite database to FTP server (disabled for now)
+        # upload_to_ftp(DATA_PATH + '/weather_data.db', FTP_PATH + '/weather_data.db')
 
     if should_process_data("25min", 25):
         logging.info("25-minute condition met. Preparing to save data...")

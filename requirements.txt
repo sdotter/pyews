@@ -1,3 +1,14 @@
-Flask
-python-dotenv
-pytz
+Flask==1.1.4
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+PyMySQL==0.9.3
+Werkzeug==1.0.1
+certifi==2021.10.8
+chardet==4.0.0
+click==7.1.2
+idna==2.10
+itsdangerous==1.1.0
+python-dotenv==0.18.0
+pytz==2025.2
+requests==2.27.1
+urllib3==1.26.20

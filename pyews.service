@@ -4,9 +4,9 @@ After=multi-user.target
 
 [Service] 
 Type=simple 
-ExecStart=/usr/bin/python3 /home/pi/pyews/app.py
+ExecStart=/home/pi/pyews/venv/bin/python /home/pi/pyews/app.py
 User=pi
-WorkingDirectory=/home/pi/
+WorkingDirectory=/home/pi/pyews
 Restart=on-failure
 StandardOutput=journal
 StandardError=journal

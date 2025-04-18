@@ -1,6 +1,7 @@
 import os
-from dotenv import load_dotenv
 import logging
+import warnings
+from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler, WatchedFileHandler
 from globals import BASE_DIR
 
@@ -22,6 +23,13 @@ def configure_logging():
     stream_handler = logging.StreamHandler() 
     stream_handler.setLevel(logging.INFO)
     stream_handler.setFormatter(formatter)
+
+    # Configure logging for paramiko to show only warnings and errors
+    paramiko_logger = logging.getLogger("paramiko")
+    paramiko_logger.setLevel(logging.WARNING)
+
+    # Filter warnings in pymysql-cursor
+    warnings.filterwarnings("ignore", category=Warning, module='pymysql.cursors')
 
     # Add both handlers to the logger
     # logging.basicConfig(level=logging.INFO, handlers=[FlushHandler(), file_handler, stream_handler])
