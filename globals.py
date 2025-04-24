@@ -16,6 +16,7 @@ LAST_SAVE_TIMES = {
     "25min": datetime.min.replace(tzinfo=TIMEZONE),
     "50min": datetime.min.replace(tzinfo=TIMEZONE),
     "60sec": datetime.min.replace(tzinfo=TIMEZONE),
+    "6hour": datetime.min.replace(tzinfo=TIMEZONE),
 }
 
 # Load environment variables from .env file
@@ -29,6 +30,7 @@ FTP_PATH = os.getenv('FTP_PATH')
 HASS_URL = os.getenv('HASS_URL')
 
 DATA_STORE = CustomWeatherStore(DATA_PATH)
+SSH_TUNNEL = None
 
 # Database configuratie voor MySQL
 MYSQL_CONFIG = {

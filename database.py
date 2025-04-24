@@ -1,4 +1,4 @@
-from sshtunnel import SSHTunnelForwarder
+from utils.ssh_tunnel import get_ssh_tunnel  
 from datetime import datetime
 import pymysql
 import sqlite3
@@ -75,7 +75,7 @@ def import_sqlite_to_mysql(mysql_connection):
                     yield tuple(row)
 
             mysql_connection.autocommit(False)
-            batch_size = 1000
+            batch_size = 250
 
             for i in range(0, total, batch_size):
                 batch = rows[i:i+batch_size]
@@ -113,8 +113,7 @@ def save_to_db(data, db_type='sqlite'):
     """Save data to a SQLite or MySQL database based on the specified db_type."""
     connection = None
     cursor = None
-    ssh_server = None
-
+    
     if db_type == 'sqlite':
         try:
             connection = sqlite3.connect(DATA_PATH + '/weather_data.db')
@@ -167,21 +166,8 @@ def save_to_db(data, db_type='sqlite'):
 
     elif db_type == 'mysql':
         try:
-            # Validate and log parameters
-            mysql_port = MYSQL_CONFIG['port']
-            if not isinstance(mysql_port, int):
-                mysql_port = int(mysql_port)
 
-            # Setup SSH Tunnel
-            ssh_server = SSHTunnelForwarder(
-                (SSH_CONFIG['ssh_host'], int(SSH_CONFIG['ssh_port'])),
-                ssh_username=SSH_CONFIG['ssh_username'],
-                ssh_password=SSH_CONFIG['ssh_password'],
-                remote_bind_address=(MYSQL_CONFIG['host'], mysql_port),
-                local_bind_address=('127.0.0.1', 3306)
-            )
-
-            ssh_server.start()
+            ssh = get_ssh_tunnel()
 
             # Connect to MySQL through the SSH tunnel
             connection = pymysql.connect(
@@ -189,7 +175,7 @@ def save_to_db(data, db_type='sqlite'):
                 user=MYSQL_CONFIG['user'],
                 password=MYSQL_CONFIG['password'],
                 db=MYSQL_CONFIG['database'],
-                port=ssh_server.local_bind_port
+                port=ssh.local_bind_port
             )
 
             cursor = connection.cursor()
@@ -223,5 +209,3 @@ def save_to_db(data, db_type='sqlite'):
                 cursor.close()
             if connection:
                 connection.close()
-            if ssh_server:
-                ssh_server.stop()
