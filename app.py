@@ -25,25 +25,33 @@ configure_logging()
 # even if a new /data/report/ API call is made while an import is still running
 import_lock = threading.Lock()
 
+# Global MySQL connection for the app
+mysql_connection = None
+
+def get_mysql_connection():
+    """Get a persistent MySQL connection through the SSH tunnel."""
+    global mysql_connection
+    if mysql_connection is None or not mysql_connection.open:  
+        ssh_tunnel = get_ssh_tunnel()  
+        mysql_connection = pymysql.connect(
+            host='127.0.0.1',
+            user=MYSQL_CONFIG['user'],
+            password=MYSQL_CONFIG['password'],
+            db=MYSQL_CONFIG['database'],
+            port=ssh_tunnel.local_bind_port
+        )
+    return mysql_connection
+
 def import_from_sqlite_if_table_missing():
     """Check MySQL table and import from SQLite if table doesn't exist (over SSH tunnel)."""
-    
-    ssh = get_ssh_tunnel()
-
-    mysql_connection = pymysql.connect(
-        host='127.0.0.1',
-        user=MYSQL_CONFIG['user'],
-        password=MYSQL_CONFIG['password'],
-        db=MYSQL_CONFIG['database'],
-        port=ssh.local_bind_port
-    )
-
     try:
-        if not table_exists(mysql_connection):
-            logging.info("Importing data from SQLite to MySQL!")
-            import_sqlite_to_mysql(mysql_connection)
-    finally:
-        mysql_connection.close()
+        conn = get_mysql_connection()
+        if not table_exists(conn):
+            logging.info("MySQL table does not exist. Importing data from SQLite...")
+            import_sqlite_to_mysql(conn)
+
+    except Exception as e:
+        logging.error(f"Failed to check or import data: {e}")
 
 def reset_ids_in_order(conn):
     """Resets the id column of the weather_archive table based on timestamp order."""
@@ -111,6 +119,8 @@ def reset_ids_in_order(conn):
 def import_saved_data_to_mysql(data_root='data', datatype='raw'):
     """One-time import of historical data from local files into MySQL."""
 
+    logging.info("Starting one-time import of historical data to MySQL...")
+    
     table_name = "weather_archive"
 
     create_table_query = f"""
@@ -268,6 +278,28 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
 
     logging.info(f"✅ Import done. Files: {total_files}, Rows: {row_count}, Skipped: {skipped}, Errors: {errors}")
 
+@app.before_first_request
+def setup():
+    """Setup for the Flask app before the first request."""
+    get_mysql_connection()  
+
+    logging.info("Initial import from SQLite to MySQL...")
+
+    # Import from SQLite to MySQL if the table is missing
+    import_from_sqlite_if_table_missing()
+
+@app.teardown_appcontext
+def cleanup(exception):
+    """Cleanup after requests to close connections properly."""
+    global mysql_connection
+    
+    logging.info("Cleaning up resources...")
+    if mysql_connection:
+        mysql_connection.close()
+        mysql_connection = None  
+        logging.info("MySQL connection closed.")
+
+
 @app.route('/data/report/', methods=['POST'])
 def receive_ecowitt():
     """Receive and process weather data."""
@@ -278,6 +310,9 @@ def receive_ecowitt():
 
         # logging.info the complete POST data for logging
         logging.info("POST received from: {}".format(request.remote_addr))
+
+        # Get the persistent MySQL connection
+        conn = get_mysql_connection()
 
         # Prepare the data structure
         weather_data = request.form.to_dict()
@@ -297,14 +332,11 @@ def receive_ecowitt():
         except Exception as e:
             logging.error("Error while forwarding POST request: {}".format(str(e)))
 
-        # Import from SQLite to MySQL if the table is missing
-        import_from_sqlite_if_table_missing()
-
         # Save to SQLite database
         save_to_db(db_data_to_store, 'sqlite')
 
-        # Save to MySQL database
-        save_to_db(db_data_to_store, 'mysql')
+        # Save to MySQL database using the persistent connection
+        save_to_db(db_data_to_store, 'mysql', conn)
 
         # Save to local storage
         DATA_STORE.save_data(raw_data_to_store, datatype='raw')
@@ -353,6 +385,7 @@ if __name__ == "__main__":
     logging.info("Script is running...")
 
     # To run a one-time import from historical files to MySQL, uncomment:
+    logging.info("Starting one-time import of historical data to MySQL...")
     import_saved_data_to_mysql()
 
     app.run(debug=True, host="0.0.0.0", port=8090, use_reloader=False)

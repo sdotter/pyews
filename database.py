@@ -109,76 +109,55 @@ def table_exists(mysql_connection):
     cursor.close()
     return exists
 
-def save_to_db(data, db_type='sqlite'):
-    """Save data to a SQLite or MySQL database based on the specified db_type."""
-    connection = None
-    cursor = None
-    
-    if db_type == 'sqlite':
-        try:
-            connection = sqlite3.connect(DATA_PATH + '/weather_data.db')
-            cursor = connection.cursor()
+def save_to_db(data, db_type='sqlite', conn=None):
+    """
+    Save data to a SQLite or MySQL database based on the specified db_type.
+    Uses a persistent connection for MySQL.
+    """
+    try:
+        if db_type == 'sqlite':
+            # Handle SQLite database operations
+            with sqlite3.connect(DATA_PATH + '/weather_data.db') as connection:
+                cursor = connection.cursor()
+                logging.info("Trying to save data to SQLite database...")
+                
+                cursor.execute('''
+                    CREATE TABLE IF NOT EXISTS weather_observations (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        timestamp TEXT NOT NULL,
+                        temp REAL,
+                        temp_in REAL,
+                        humidity INTEGER,
+                        humidity_in INTEGER, 
+                        pressure_abs REAL,
+                        pressure_rel REAL,
+                        rain_rate REAL,
+                        rain_event REAL,
+                        rain_hourly REAL,
+                        rain_daily REAL,
+                        rain_weekly REAL,
+                        rain_monthly REAL,
+                        rain_yearly REAL,
+                        wind_degree REAL,
+                        wind_gust REAL,
+                        wind_gust_maxdaily REAL,
+                        wind_speed REAL,
+                        solarradiation REAL,
+                        uv INTEGER
+                    )
+                ''')
 
-            logging.info("Trying to save data to SQLite database...")
+                cursor.execute('''
+                    INSERT INTO weather_observations (timestamp, temp, temp_in, humidity, humidity_in, pressure_abs, pressure_rel, rain_rate, rain_event, rain_hourly, rain_daily, rain_weekly, rain_monthly, rain_yearly, wind_degree, wind_gust, wind_gust_maxdaily, wind_speed, solarradiation, uv)
+                    VALUES (:timestamp, :temp, :temp_in, :humidity, :humidity_in, :pressure_abs, :pressure_rel, :rain_rate, :rain_event, :rain_hourly, :rain_daily, :rain_weekly, :rain_monthly, :rain_yearly, :wind_degree, :wind_gust, :wind_gust_maxdaily, :wind_speed, :solarradiation, :uv)
+                ''', data)
 
-            cursor.execute('''
-                CREATE TABLE IF NOT EXISTS weather_observations (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    timestamp TEXT NOT NULL,
-                    temp REAL,
-                    temp_in REAL,
-                    humidity INTEGER,
-                    humidity_in INTEGER, 
-                    pressure_abs REAL,
-                    pressure_rel REAL,
-                    rain_rate REAL,
-                    rain_event REAL,
-                    rain_hourly REAL,
-                    rain_daily REAL,
-                    rain_weekly REAL,
-                    rain_monthly REAL,
-                    rain_yearly REAL,
-                    wind_degree REAL,
-                    wind_gust REAL,
-                    wind_gust_maxdaily REAL,
-                    wind_speed REAL,
-                    solarradiation REAL,
-                    uv INTEGER
-                )
-            ''')
-
-            cursor.execute('''
-                INSERT INTO weather_observations (timestamp, temp, temp_in, humidity, humidity_in, pressure_abs, pressure_rel, rain_rate, rain_event, rain_hourly, rain_daily, rain_weekly, rain_monthly, rain_yearly, wind_degree, wind_gust, wind_gust_maxdaily, wind_speed, solarradiation, uv)
-                VALUES (:timestamp, :temp, :temp_in, :humidity, :humidity_in, :pressure_abs, :pressure_rel, :rain_rate, :rain_event, :rain_hourly, :rain_daily, :rain_weekly, :rain_monthly, :rain_yearly, :wind_degree, :wind_gust, :wind_gust_maxdaily, :wind_speed, :solarradiation, :uv)
-            ''', data)
-
-            connection.commit()
-            logging.info("Data successfully saved to SQLite database.")
-
-        except sqlite3.Error as e:
-            logging.error("SQLite error: {}".format(e))
-
-        finally:
-            if cursor:
-                cursor.close()
-            if connection:
-                connection.close()
-
-    elif db_type == 'mysql':
-        try:
-
-            ssh = get_ssh_tunnel()
-
-            # Connect to MySQL through the SSH tunnel
-            connection = pymysql.connect(
-                host='127.0.0.1',
-                user=MYSQL_CONFIG['user'],
-                password=MYSQL_CONFIG['password'],
-                db=MYSQL_CONFIG['database'],
-                port=ssh.local_bind_port
-            )
-
-            cursor = connection.cursor()
+                logging.info("Data successfully saved to SQLite database.")
+        
+        elif db_type == 'mysql' and conn is not None:
+            
+            # Handle MySQL database operations using the persistent connection
+            cursor = conn.cursor()
             logging.info("Trying to save data to MySQL database...")
 
             cursor.execute('''
@@ -198,14 +177,15 @@ def save_to_db(data, db_type='sqlite'):
                 data['wind_speed'], data['solarradiation'], data['uv']
             ))
 
-            connection.commit()
+            conn.commit()
             logging.info("Data successfully saved to MySQL database.")
+        
+        else:
+            logging.error(f"Invalid db_type '{db_type}' or MySQL connection not provided.")
 
-        except pymysql.MySQLError as e:
-            logging.error("MySQL error: {}".format(e))
+    except (sqlite3.Error, pymysql.MySQLError) as e:
+        logging.error(f"Database error ({db_type}): {e}")
 
-        finally:
-            if cursor:
-                cursor.close()
-            if connection:
-                connection.close()
+    finally:
+        if db_type == 'mysql' and cursor:
+            cursor.close()
