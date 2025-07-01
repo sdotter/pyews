@@ -1,6 +1,8 @@
 
 import os
 
+import sys
+import signal
 import pymysql
 import requests
 import threading
@@ -28,6 +30,16 @@ import_lock = threading.Lock()
 # Global MySQL connection for the app
 mysql_connection = None
 
+def signal_handler(sig, frame):
+    """Handle termination signals and cleanup resources properly."""
+    logging.info("Termination signal received. Cleaning up...")
+    close_mysql_connection()
+    sys.exit(0)
+
+# Register signal handlers for gracefully shutting down the application
+signal.signal(signal.SIGINT, signal_handler)    # Handle interrupt signal (Ctrl+C)
+signal.signal(signal.SIGTERM, signal_handler)   # Handle termination signal
+
 def get_mysql_connection():
     """Get a persistent MySQL connection through the SSH tunnel."""
     global mysql_connection
@@ -41,6 +53,14 @@ def get_mysql_connection():
             port=ssh_tunnel.local_bind_port
         )
     return mysql_connection
+
+def close_mysql_connection():
+    """Close the MySQL connection when the application is shutting down."""
+    global mysql_connection
+    if mysql_connection:
+        mysql_connection.close()
+        mysql_connection = None
+        logging.info("MySQL connection closed.")
 
 def import_from_sqlite_if_table_missing():
     """Check MySQL table and import from SQLite if table doesn't exist (over SSH tunnel)."""
@@ -290,15 +310,8 @@ def setup():
 
 @app.teardown_appcontext
 def cleanup(exception):
-    """Cleanup after requests to close connections properly."""
-    global mysql_connection
-    
-    logging.info("Cleaning up resources...")
-    if mysql_connection:
-        mysql_connection.close()
-        mysql_connection = None  
-        logging.info("MySQL connection closed.")
-
+    """Keep this function for any per-request cleanup that doesn't include closing the MySQL connection."""
+    logging.info("ℹ️ MySQL connection stays open!")
 
 @app.route('/data/report/', methods=['POST'])
 def receive_ecowitt():
@@ -385,7 +398,11 @@ if __name__ == "__main__":
     logging.info("Script is running...")
 
     # To run a one-time import from historical files to MySQL, uncomment:
-    logging.info("Starting one-time import of historical data to MySQL...")
-    import_saved_data_to_mysql()
-
-    app.run(debug=True, host="0.0.0.0", port=8090, use_reloader=False)
+    #import_saved_data_to_mysql()
+    
+    try:
+        app.run(debug=True, host="0.0.0.0", port=8090, use_reloader=False)
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
+    finally:
+        close_mysql_connection()

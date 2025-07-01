@@ -1,23 +1,6 @@
 {
     "data": [
         {
-            "06/01/2025 21:35": {
-                "AbsPressure": 1013.0,
-                "DewPoint": 9,
-                "Rain": 0.0,
-                "FeelsLike": 16,
-                "HumidityIn": 54,
-                "HumidityOut": 62,
-                "SolarRadiation": 8.7,
-                "TempIn": 22.1,
-                "TempOut": 16.3,
-                "WindDirection": "WSW",
-                "WindChill": null,
-                "WindGust": 15,
-                "WindAvg": 10
-            }
-        },
-        {
             "06/01/2025 22:25": {
                 "AbsPressure": 1013.2,
                 "DewPoint": 9,
@@ -12986,6 +12969,57 @@
                 "WindChill": null,
                 "WindGust": 4,
                 "WindAvg": 1
+            }
+        },
+        {
+            "07/01/2025 23:29": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 57,
+                "HumidityOut": 58,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/01/2025 23:37": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/01/2025 23:39": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
             }
         }
     ]

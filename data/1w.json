@@ -1,40 +1,6 @@
 {
     "data": [
         {
-            "06/24/2025 21:10": {
-                "AbsPressure": 1010.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 57,
-                "HumidityOut": 68,
-                "SolarRadiation": 33.2,
-                "TempIn": 24.8,
-                "TempOut": 21.8,
-                "WindDirection": "S",
-                "WindChill": null,
-                "WindGust": 22,
-                "WindAvg": 14
-            }
-        },
-        {
-            "06/24/2025 21:35": {
-                "AbsPressure": 1010.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 21,
-                "HumidityIn": 57,
-                "HumidityOut": 70,
-                "SolarRadiation": 16.1,
-                "TempIn": 24.7,
-                "TempOut": 21.4,
-                "WindDirection": "WSW",
-                "WindChill": null,
-                "WindGust": 18,
-                "WindAvg": 13
-            }
-        },
-        {
             "06/24/2025 22:01": {
                 "AbsPressure": 1010.1,
                 "DewPoint": 16,
@@ -6560,6 +6526,57 @@
                 "WindChill": null,
                 "WindGust": 4,
                 "WindAvg": 1
+            }
+        },
+        {
+            "07/01/2025 23:29": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 57,
+                "HumidityOut": 58,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/01/2025 23:37": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/01/2025 23:39": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
             }
         }
     ]
