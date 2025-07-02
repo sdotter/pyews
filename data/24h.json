@@ -1,2624 +1,6 @@
 {
     "data": [
         {
-            "06/30/2025 21:59": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 29,
-                "HumidityIn": 59,
-                "HumidityOut": 54,
-                "SolarRadiation": 5.6,
-                "TempIn": 26.9,
-                "TempOut": 27.9,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "06/30/2025 22:04": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 59,
-                "HumidityOut": 54,
-                "SolarRadiation": 4.0,
-                "TempIn": 26.9,
-                "TempOut": 27.7,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 7
-            }
-        },
-        {
-            "06/30/2025 22:09": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 2.7,
-                "TempIn": 26.9,
-                "TempOut": 27.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "06/30/2025 22:14": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 1.7,
-                "TempIn": 26.9,
-                "TempOut": 27.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 7
-            }
-        },
-        {
-            "06/30/2025 22:19": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 1.0,
-                "TempIn": 26.9,
-                "TempOut": 27.4,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 7
-            }
-        },
-        {
-            "06/30/2025 22:24": {
-                "AbsPressure": 1015.5,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.6,
-                "TempIn": 26.9,
-                "TempOut": 27.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 6
-            }
-        },
-        {
-            "06/30/2025 22:29": {
-                "AbsPressure": 1015.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.3,
-                "TempIn": 26.8,
-                "TempOut": 27.1,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 5
-            }
-        },
-        {
-            "06/30/2025 22:34": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 57,
-                "SolarRadiation": 0.2,
-                "TempIn": 26.9,
-                "TempOut": 26.9,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 8
-            }
-        },
-        {
-            "06/30/2025 22:39": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 57,
-                "SolarRadiation": 0.1,
-                "TempIn": 26.8,
-                "TempOut": 26.8,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 3
-            }
-        },
-        {
-            "06/30/2025 22:44": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 58,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.7,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "06/30/2025 22:49": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 60,
-                "HumidityOut": 58,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 26.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "06/30/2025 22:55": {
-                "AbsPressure": 1015.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 60,
-                "HumidityOut": 58,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.6,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 13,
-                "WindAvg": 5
-            }
-        },
-        {
-            "06/30/2025 23:00": {
-                "AbsPressure": 1015.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 60,
-                "HumidityOut": 58,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "06/30/2025 23:05": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 61,
-                "HumidityOut": 57,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 0
-            }
-        },
-        {
-            "06/30/2025 23:10": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 61,
-                "HumidityOut": 57,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "06/30/2025 23:15": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 61,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 5
-            }
-        },
-        {
-            "06/30/2025 23:20": {
-                "AbsPressure": 1015.4,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 61,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 5
-            }
-        },
-        {
-            "06/30/2025 23:25": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 61,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 1
-            }
-        },
-        {
-            "06/30/2025 23:30": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 61,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.6,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "06/30/2025 23:35": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 61,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.4,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "06/30/2025 23:40": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.9,
-                "TempOut": 26.2,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "06/30/2025 23:45": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 26.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 5
-            }
-        },
-        {
-            "06/30/2025 23:50": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.9,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 0
-            }
-        },
-        {
-            "06/30/2025 23:56": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.8,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 00:01": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 15,
-                "WindAvg": 5
-            }
-        },
-        {
-            "07/01/2025 00:06": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 60,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 00:11": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 59,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 5
-            }
-        },
-        {
-            "07/01/2025 00:16": {
-                "AbsPressure": 1015.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 59,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 00:21": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 59,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.2,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 00:26": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 59,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.1,
-                "WindDirection": "NNW",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 00:31": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 59,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 25.1,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 00:36": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 58,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.9,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 00:41": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 58,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.9,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 00:46": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 58,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.8,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 00:51": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 58,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.7,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 00:57": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 58,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 01:02": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 57,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:07": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 57,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:12": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 57,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.5,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:17": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 57,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.5,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 01:22": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 57,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:27": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 56,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.4,
-                "WindDirection": "NW",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 01:32": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 56,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.3,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:37": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 56,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.2,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 01:42": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 56,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.1,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 01:47": {
-                "AbsPressure": 1015.2,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 55,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 24.0,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 01:52": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 55,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.9,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 01:58": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 55,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.8,
-                "WindDirection": "NW",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 02:03": {
-                "AbsPressure": 1015.1,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 55,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.8,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 02:08": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 54,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 02:13": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 54,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.6,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 13,
-                "WindAvg": 8
-            }
-        },
-        {
-            "07/01/2025 02:18": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 54,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 02:23": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 54,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.8,
-                "TempOut": 23.6,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 5
-            }
-        },
-        {
-            "07/01/2025 02:28": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 54,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.5,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 02:33": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 53,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 02:38": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 53,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.4,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 02:43": {
-                "AbsPressure": 1014.9,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 53,
-                "HumidityOut": 52,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.3,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 02:48": {
-                "AbsPressure": 1014.8,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 53,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.2,
-                "WindDirection": "SE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 02:53": {
-                "AbsPressure": 1015.0,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 53,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.1,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 02:59": {
-                "AbsPressure": 1014.8,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 53,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 23.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 03:04": {
-                "AbsPressure": 1014.8,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 03:09": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.8,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 03:14": {
-                "AbsPressure": 1014.7,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.7,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 03:19": {
-                "AbsPressure": 1014.7,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 03:24": {
-                "AbsPressure": 1014.7,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.6,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 03:29": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 52,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.6,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 6
-            }
-        },
-        {
-            "07/01/2025 03:34": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 51,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.7,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 03:39": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 51,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.6,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 03:44": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 12,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 51,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 03:49": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 12,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 51,
-                "HumidityOut": 53,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.5,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 03:54": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 51,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 04:00": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.4,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 04:05": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.7,
-                "TempOut": 22.4,
-                "WindDirection": "S",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 04:10": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.3,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 04:15": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.1,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 04:20": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.1,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 04:25": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.0,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 04:30": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.1,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 04:35": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 04:40": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.0,
-                "TempIn": 26.6,
-                "TempOut": 22.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 04:45": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.1,
-                "TempIn": 26.6,
-                "TempOut": 22.0,
-                "WindDirection": "SSW",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 04:50": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 12,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 0.1,
-                "TempIn": 26.6,
-                "TempOut": 21.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 04:55": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.2,
-                "TempIn": 26.6,
-                "TempOut": 21.8,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:01": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.3,
-                "TempIn": 26.6,
-                "TempOut": 21.7,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:06": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 0.6,
-                "TempIn": 26.5,
-                "TempOut": 21.8,
-                "WindDirection": "SSE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:11": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 1.1,
-                "TempIn": 26.5,
-                "TempOut": 21.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:16": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 1.7,
-                "TempIn": 26.5,
-                "TempOut": 21.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:21": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 12,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 2.7,
-                "TempIn": 26.5,
-                "TempOut": 21.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 05:26": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 4.0,
-                "TempIn": 26.5,
-                "TempOut": 21.7,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:31": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 5.5,
-                "TempIn": 26.5,
-                "TempOut": 21.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 05:36": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 7.4,
-                "TempIn": 26.5,
-                "TempOut": 21.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:41": {
-                "AbsPressure": 1014.1,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 9.6,
-                "TempIn": 26.5,
-                "TempOut": 21.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 05:46": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 12.1,
-                "TempIn": 26.5,
-                "TempOut": 21.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 05:51": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 14.7,
-                "TempIn": 26.5,
-                "TempOut": 21.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 05:56": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 17.7,
-                "TempIn": 26.5,
-                "TempOut": 21.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:02": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 20.5,
-                "TempIn": 26.5,
-                "TempOut": 21.7,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 06:07": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 57,
-                "SolarRadiation": 23.6,
-                "TempIn": 26.5,
-                "TempOut": 21.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 0,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:12": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 26.7,
-                "TempIn": 26.5,
-                "TempOut": 22.1,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:17": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 49,
-                "HumidityOut": 56,
-                "SolarRadiation": 29.6,
-                "TempIn": 26.5,
-                "TempOut": 22.2,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:22": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 56,
-                "SolarRadiation": 32.4,
-                "TempIn": 26.6,
-                "TempOut": 22.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 06:27": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 56,
-                "SolarRadiation": 35.4,
-                "TempIn": 26.6,
-                "TempOut": 22.3,
-                "WindDirection": "N",
-                "WindChill": null,
-                "WindGust": 0,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:32": {
-                "AbsPressure": 1014.6,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 56,
-                "SolarRadiation": 38.8,
-                "TempIn": 26.7,
-                "TempOut": 22.3,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 06:37": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 56,
-                "SolarRadiation": 43.4,
-                "TempIn": 26.7,
-                "TempOut": 22.2,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:42": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 22,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 49.2,
-                "TempIn": 26.7,
-                "TempOut": 22.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:47": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 55.7,
-                "TempIn": 26.7,
-                "TempOut": 22.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 06:52": {
-                "AbsPressure": 1014.1,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 50,
-                "HumidityOut": 55,
-                "SolarRadiation": 62.1,
-                "TempIn": 26.8,
-                "TempOut": 22.8,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 06:57": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 71.2,
-                "TempIn": 26.8,
-                "TempOut": 23.2,
-                "WindDirection": "SE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 07:03": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 78.9,
-                "TempIn": 26.8,
-                "TempOut": 23.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 07:08": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 23,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 86.4,
-                "TempIn": 26.8,
-                "TempOut": 23.3,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 0,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 07:13": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 54,
-                "SolarRadiation": 95.5,
-                "TempIn": 26.8,
-                "TempOut": 23.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 07:18": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 53,
-                "SolarRadiation": 105.4,
-                "TempIn": 26.8,
-                "TempOut": 23.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 07:23": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 53,
-                "SolarRadiation": 115.2,
-                "TempIn": 26.8,
-                "TempOut": 23.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 07:28": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 52,
-                "SolarRadiation": 124.8,
-                "TempIn": 26.8,
-                "TempOut": 23.8,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 07:33": {
-                "AbsPressure": 1014.1,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 51,
-                "SolarRadiation": 135.7,
-                "TempIn": 26.8,
-                "TempOut": 24.3,
-                "WindDirection": "SE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 07:38": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 52,
-                "SolarRadiation": 146.5,
-                "TempIn": 26.9,
-                "TempOut": 24.3,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 07:43": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 13,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 50,
-                "SolarRadiation": 155.9,
-                "TempIn": 26.9,
-                "TempOut": 24.5,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 5
-            }
-        },
-        {
-            "07/01/2025 07:48": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 50,
-                "HumidityOut": 51,
-                "SolarRadiation": 167.8,
-                "TempIn": 26.9,
-                "TempOut": 24.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 07:53": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 24,
-                "HumidityIn": 50,
-                "HumidityOut": 52,
-                "SolarRadiation": 178.7,
-                "TempIn": 26.9,
-                "TempOut": 24.3,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 07:58": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 50,
-                "HumidityOut": 52,
-                "SolarRadiation": 187.9,
-                "TempIn": 26.9,
-                "TempOut": 24.7,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 08:04": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 51,
-                "SolarRadiation": 203.8,
-                "TempIn": 26.9,
-                "TempOut": 25.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 08:09": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 51,
-                "SolarRadiation": 215.6,
-                "TempIn": 26.9,
-                "TempOut": 25.4,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 08:14": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 52,
-                "SolarRadiation": 226.7,
-                "TempIn": 26.9,
-                "TempOut": 24.9,
-                "WindDirection": "ESE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 08:19": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 14,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 53,
-                "SolarRadiation": 239.7,
-                "TempIn": 26.9,
-                "TempOut": 24.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 08:24": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 52,
-                "SolarRadiation": 252.8,
-                "TempIn": 27.0,
-                "TempOut": 25.2,
-                "WindDirection": "WSW",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 08:29": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 25,
-                "HumidityIn": 51,
-                "HumidityOut": 52,
-                "SolarRadiation": 266.8,
-                "TempIn": 27.0,
-                "TempOut": 25.3,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 08:34": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 51,
-                "HumidityOut": 51,
-                "SolarRadiation": 277.6,
-                "TempIn": 27.0,
-                "TempOut": 25.7,
-                "WindDirection": "SW",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 08:39": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 51,
-                "HumidityOut": 52,
-                "SolarRadiation": 294.5,
-                "TempIn": 27.0,
-                "TempOut": 25.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 4
-            }
-        },
-        {
-            "07/01/2025 08:44": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 26,
-                "HumidityIn": 51,
-                "HumidityOut": 50,
-                "SolarRadiation": 307.9,
-                "TempIn": 27.0,
-                "TempOut": 26.4,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 08:49": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 15,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 51,
-                "HumidityOut": 49,
-                "SolarRadiation": 322.6,
-                "TempIn": 27.0,
-                "TempOut": 27.0,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 08:54": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 27,
-                "HumidityIn": 51,
-                "HumidityOut": 50,
-                "SolarRadiation": 338.6,
-                "TempIn": 27.0,
-                "TempOut": 27.0,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 08:59": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 51,
-                "HumidityOut": 50,
-                "SolarRadiation": 354.3,
-                "TempIn": 27.0,
-                "TempOut": 27.2,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 09:05": {
-                "AbsPressure": 1014.0,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 51,
-                "HumidityOut": 50,
-                "SolarRadiation": 368.2,
-                "TempIn": 27.0,
-                "TempOut": 27.2,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 09:10": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 52,
-                "HumidityOut": 49,
-                "SolarRadiation": 379.7,
-                "TempIn": 27.0,
-                "TempOut": 27.4,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 09:15": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 52,
-                "HumidityOut": 48,
-                "SolarRadiation": 392.8,
-                "TempIn": 27.1,
-                "TempOut": 27.9,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:20": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 28,
-                "HumidityIn": 52,
-                "HumidityOut": 48,
-                "SolarRadiation": 407.0,
-                "TempIn": 27.1,
-                "TempOut": 28.2,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:25": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 29,
-                "HumidityIn": 52,
-                "HumidityOut": 47,
-                "SolarRadiation": 420.8,
-                "TempIn": 27.1,
-                "TempOut": 28.6,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 09:30": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 29,
-                "HumidityIn": 52,
-                "HumidityOut": 46,
-                "SolarRadiation": 433.5,
-                "TempIn": 27.1,
-                "TempOut": 29.0,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:35": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 30,
-                "HumidityIn": 52,
-                "HumidityOut": 45,
-                "SolarRadiation": 446.9,
-                "TempIn": 27.1,
-                "TempOut": 29.9,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 0,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:40": {
-                "AbsPressure": 1014.5,
-                "DewPoint": 16,
-                "Rain": 0.0,
-                "FeelsLike": 30,
-                "HumidityIn": 53,
-                "HumidityOut": 45,
-                "SolarRadiation": 460.0,
-                "TempIn": 27.1,
-                "TempOut": 29.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 09:45": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 30,
-                "HumidityIn": 53,
-                "HumidityOut": 46,
-                "SolarRadiation": 474.8,
-                "TempIn": 27.1,
-                "TempOut": 29.4,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:50": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 30,
-                "HumidityIn": 53,
-                "HumidityOut": 45,
-                "SolarRadiation": 487.3,
-                "TempIn": 27.2,
-                "TempOut": 29.8,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 0,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 09:55": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 31,
-                "HumidityIn": 53,
-                "HumidityOut": 45,
-                "SolarRadiation": 491.1,
-                "TempIn": 27.2,
-                "TempOut": 30.2,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 10:00": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 31,
-                "HumidityIn": 53,
-                "HumidityOut": 44,
-                "SolarRadiation": 509.8,
-                "TempIn": 27.2,
-                "TempOut": 30.7,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 10:06": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 32,
-                "HumidityIn": 54,
-                "HumidityOut": 44,
-                "SolarRadiation": 521.9,
-                "TempIn": 27.2,
-                "TempOut": 31.2,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:11": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 33,
-                "HumidityIn": 54,
-                "HumidityOut": 42,
-                "SolarRadiation": 534.2,
-                "TempIn": 27.2,
-                "TempOut": 32.1,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:16": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 32,
-                "HumidityIn": 54,
-                "HumidityOut": 43,
-                "SolarRadiation": 545.9,
-                "TempIn": 27.2,
-                "TempOut": 31.8,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:21": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 17,
-                "Rain": 0.0,
-                "FeelsLike": 32,
-                "HumidityIn": 54,
-                "HumidityOut": 42,
-                "SolarRadiation": 556.9,
-                "TempIn": 27.2,
-                "TempOut": 31.9,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 1
-            }
-        },
-        {
-            "07/01/2025 10:26": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 33,
-                "HumidityIn": 54,
-                "HumidityOut": 42,
-                "SolarRadiation": 569.9,
-                "TempIn": 27.3,
-                "TempOut": 32.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 3
-            }
-        },
-        {
-            "07/01/2025 10:31": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 33,
-                "HumidityIn": 54,
-                "HumidityOut": 43,
-                "SolarRadiation": 580.9,
-                "TempIn": 27.3,
-                "TempOut": 32.1,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 2,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:36": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 34,
-                "HumidityIn": 55,
-                "HumidityOut": 42,
-                "SolarRadiation": 589.3,
-                "TempIn": 27.3,
-                "TempOut": 32.7,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:41": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 34,
-                "HumidityIn": 55,
-                "HumidityOut": 43,
-                "SolarRadiation": 601.0,
-                "TempIn": 27.3,
-                "TempOut": 32.5,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 4,
-                "WindAvg": 0
-            }
-        },
-        {
-            "07/01/2025 10:46": {
-                "AbsPressure": 1014.4,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 34,
-                "HumidityIn": 55,
-                "HumidityOut": 42,
-                "SolarRadiation": 611.9,
-                "TempIn": 27.3,
-                "TempOut": 33.0,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 2
-            }
-        },
-        {
-            "07/01/2025 10:51": {
-                "AbsPressure": 1014.2,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 33,
-                "HumidityIn": 55,
-                "HumidityOut": 44,
-                "SolarRadiation": 623.6,
-                "TempIn": 27.4,
-                "TempOut": 32.1,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 7
-            }
-        },
-        {
-            "07/01/2025 10:56": {
-                "AbsPressure": 1014.3,
-                "DewPoint": 18,
-                "Rain": 0.0,
-                "FeelsLike": 33,
-                "HumidityIn": 55,
-                "HumidityOut": 45,
-                "SolarRadiation": 631.2,
-                "TempIn": 27.4,
-                "TempOut": 31.9,
-                "WindDirection": "E",
-                "WindChill": null,
-                "WindGust": 5,
-                "WindAvg": 5
-            }
-        },
-        {
             "07/01/2025 13:54": {
                 "AbsPressure": 1013.5,
                 "DewPoint": 18,
@@ -4435,6 +1817,2709 @@
                 "WindChill": null,
                 "WindGust": 2,
                 "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 00:01": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 60,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 27.0,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 00:06": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 00:11": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 57,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 00:16": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.4,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 00:22": {
+                "AbsPressure": 1013.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.2,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 00:27": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 60,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.1,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 00:32": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 59,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.1,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 00:37": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 58,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 26.1,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 00:42": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 58,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.9,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 00:47": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 59,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.7,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 00:52": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 59,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.7,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 00:57": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 56,
+                "HumidityOut": 59,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:02": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 55,
+                "HumidityOut": 60,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.5,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 01:07": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 60,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 25.3,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:12": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 25.2,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 01:17": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 25.2,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 01:23": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 25.1,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 01:28": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 61,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 25.0,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 01:33": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.9,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:38": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 55,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.9,
+                "WindDirection": "SSE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:43": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 01:48": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:53": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 01:58": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 62,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.6,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:03": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 63,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.6,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:08": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 63,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.6,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:13": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 54,
+                "HumidityOut": 63,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:18": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 63,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.5,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:24": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 65,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.2,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:29": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 64,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.4,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 02:34": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 64,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.5,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 02:39": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 64,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.5,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 02:44": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.5,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 02:49": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 68,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.4,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 02:54": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 68,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.2,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 02:59": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.1,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 03:04": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.1,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 03:09": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 66,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.1,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 03:14": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.0,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 03:19": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 24.0,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 03:25": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 67,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.9,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 03:30": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 68,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.9,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 03:35": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 69,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 03:40": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 70,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 03:45": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 70,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.8,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 03:50": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 71,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 03:55": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 71,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 04:00": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 54,
+                "HumidityOut": 73,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.6,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:05": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.5,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 04:10": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 75,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.3,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 04:15": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 75,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.2,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 9
+            }
+        },
+        {
+            "07/02/2025 04:20": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.1,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:26": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.1,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:31": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.9,
+                "TempOut": 23.1,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 04:36": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.1,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:41": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 04:46": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.0,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:51": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 75,
+                "SolarRadiation": 0.1,
+                "TempIn": 28.8,
+                "TempOut": 22.9,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 04:56": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 75,
+                "SolarRadiation": 0.2,
+                "TempIn": 28.8,
+                "TempOut": 22.9,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 05:01": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 0.3,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 05:06": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 0.6,
+                "TempIn": 28.8,
+                "TempOut": 23.2,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 05:11": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 1.0,
+                "TempIn": 28.8,
+                "TempOut": 23.2,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 05:16": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 1.6,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 05:21": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 72,
+                "SolarRadiation": 2.5,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 05:27": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 72,
+                "SolarRadiation": 3.6,
+                "TempIn": 28.8,
+                "TempOut": 22.9,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 05:32": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 72,
+                "SolarRadiation": 5.2,
+                "TempIn": 28.8,
+                "TempOut": 22.9,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 05:37": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 70,
+                "SolarRadiation": 6.2,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 05:42": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 54,
+                "HumidityOut": 71,
+                "SolarRadiation": 8.1,
+                "TempIn": 28.8,
+                "TempOut": 23.0,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 05:47": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 54,
+                "HumidityOut": 72,
+                "SolarRadiation": 9.7,
+                "TempIn": 28.8,
+                "TempOut": 22.9,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 05:52": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 54,
+                "HumidityOut": 73,
+                "SolarRadiation": 12.2,
+                "TempIn": 28.8,
+                "TempOut": 22.8,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 05:57": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 54,
+                "HumidityOut": 74,
+                "SolarRadiation": 15.8,
+                "TempIn": 28.8,
+                "TempOut": 22.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 06:02": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 75,
+                "SolarRadiation": 18.9,
+                "TempIn": 28.8,
+                "TempOut": 22.5,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 13,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 06:07": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 76,
+                "SolarRadiation": 23.3,
+                "TempIn": 28.8,
+                "TempOut": 22.4,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 06:12": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 77,
+                "SolarRadiation": 27.5,
+                "TempIn": 28.8,
+                "TempOut": 22.3,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:17": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 77,
+                "SolarRadiation": 30.3,
+                "TempIn": 28.8,
+                "TempOut": 22.2,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:22": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 77,
+                "SolarRadiation": 34.9,
+                "TempIn": 28.8,
+                "TempOut": 22.2,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:28": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 76,
+                "SolarRadiation": 39.3,
+                "TempIn": 28.8,
+                "TempOut": 22.3,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:33": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 76,
+                "SolarRadiation": 43.6,
+                "TempIn": 28.8,
+                "TempOut": 22.3,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:38": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 22,
+                "HumidityIn": 55,
+                "HumidityOut": 76,
+                "SolarRadiation": 48.5,
+                "TempIn": 28.8,
+                "TempOut": 22.5,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:43": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 56,
+                "HumidityOut": 75,
+                "SolarRadiation": 54.0,
+                "TempIn": 28.7,
+                "TempOut": 22.7,
+                "WindDirection": "NNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:48": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 74,
+                "SolarRadiation": 59.4,
+                "TempIn": 28.6,
+                "TempOut": 23.0,
+                "WindDirection": "NNW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:53": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 23,
+                "HumidityIn": 55,
+                "HumidityOut": 73,
+                "SolarRadiation": 65.5,
+                "TempIn": 28.6,
+                "TempOut": 23.4,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 06:58": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 72,
+                "SolarRadiation": 72.3,
+                "TempIn": 28.5,
+                "TempOut": 23.6,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:03": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 71,
+                "SolarRadiation": 79.8,
+                "TempIn": 28.5,
+                "TempOut": 23.8,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:08": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 55,
+                "HumidityOut": 70,
+                "SolarRadiation": 87.0,
+                "TempIn": 28.5,
+                "TempOut": 24.2,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:13": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 95.6,
+                "TempIn": 28.5,
+                "TempOut": 24.2,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:18": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 71,
+                "SolarRadiation": 104.2,
+                "TempIn": 28.5,
+                "TempOut": 24.0,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:23": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 113.5,
+                "TempIn": 28.5,
+                "TempOut": 24.2,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:29": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 122.9,
+                "TempIn": 28.4,
+                "TempOut": 24.4,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 07:34": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 71,
+                "SolarRadiation": 133.2,
+                "TempIn": 28.5,
+                "TempOut": 24.1,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 07:39": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 144.1,
+                "TempIn": 28.4,
+                "TempOut": 24.1,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 07:44": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 71,
+                "SolarRadiation": 163.7,
+                "TempIn": 28.3,
+                "TempOut": 24.1,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 07:49": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 183.9,
+                "TempIn": 28.4,
+                "TempOut": 24.4,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 07:54": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 24,
+                "HumidityIn": 56,
+                "HumidityOut": 70,
+                "SolarRadiation": 193.8,
+                "TempIn": 28.3,
+                "TempOut": 24.4,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 07:59": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 57,
+                "HumidityOut": 70,
+                "SolarRadiation": 216.7,
+                "TempIn": 28.4,
+                "TempOut": 24.7,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 08:04": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 25,
+                "HumidityIn": 57,
+                "HumidityOut": 68,
+                "SolarRadiation": 260.2,
+                "TempIn": 28.4,
+                "TempOut": 25.2,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 08:09": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 68,
+                "SolarRadiation": 275.8,
+                "TempIn": 28.3,
+                "TempOut": 25.5,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 08:14": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 58,
+                "HumidityOut": 67,
+                "SolarRadiation": 263.5,
+                "TempIn": 28.3,
+                "TempOut": 25.7,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 08:19": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 66,
+                "SolarRadiation": 254.3,
+                "TempIn": 28.3,
+                "TempOut": 25.9,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 08:24": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 68,
+                "SolarRadiation": 244.7,
+                "TempIn": 28.2,
+                "TempOut": 25.5,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 08:30": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 66,
+                "SolarRadiation": 245.1,
+                "TempIn": 28.3,
+                "TempOut": 25.7,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 08:35": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 57,
+                "HumidityOut": 67,
+                "SolarRadiation": 217.3,
+                "TempIn": 28.3,
+                "TempOut": 25.6,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 08:40": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 26,
+                "HumidityIn": 58,
+                "HumidityOut": 65,
+                "SolarRadiation": 285.5,
+                "TempIn": 28.3,
+                "TempOut": 26.2,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 08:45": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 58,
+                "HumidityOut": 63,
+                "SolarRadiation": 297.4,
+                "TempIn": 28.3,
+                "TempOut": 26.7,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 08:50": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 28,
+                "HumidityIn": 58,
+                "HumidityOut": 62,
+                "SolarRadiation": 309.9,
+                "TempIn": 28.4,
+                "TempOut": 27.2,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 08:55": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 58,
+                "SolarRadiation": 322.2,
+                "TempIn": 28.5,
+                "TempOut": 28.2,
+                "WindDirection": "NNW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 09:00": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 57,
+                "HumidityOut": 59,
+                "SolarRadiation": 333.9,
+                "TempIn": 28.5,
+                "TempOut": 27.8,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 09:05": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 56,
+                "SolarRadiation": 355.8,
+                "TempIn": 28.6,
+                "TempOut": 28.5,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 09:10": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 56,
+                "SolarRadiation": 401.9,
+                "TempIn": 28.6,
+                "TempOut": 28.9,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 09:15": {
+                "AbsPressure": 1013.2,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 54,
+                "SolarRadiation": 243.9,
+                "TempIn": 28.7,
+                "TempOut": 28.9,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 09:20": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 56,
+                "HumidityOut": 56,
+                "SolarRadiation": 413.8,
+                "TempIn": 28.6,
+                "TempOut": 28.5,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 09:25": {
+                "AbsPressure": 1013.4,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 58,
+                "SolarRadiation": 400.3,
+                "TempIn": 28.5,
+                "TempOut": 28.4,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 09:31": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 20,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 58,
+                "SolarRadiation": 419.2,
+                "TempIn": 28.4,
+                "TempOut": 28.8,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 09:36": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 56,
+                "HumidityOut": 56,
+                "SolarRadiation": 206.5,
+                "TempIn": 28.3,
+                "TempOut": 28.4,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 09:39": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 56,
+                "HumidityOut": 57,
+                "SolarRadiation": 427.4,
+                "TempIn": 28.3,
+                "TempOut": 28.0,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 09:43": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 56,
+                "HumidityOut": 57,
+                "SolarRadiation": 429.4,
+                "TempIn": 28.2,
+                "TempOut": 28.1,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 09:44": {
+                "AbsPressure": 1013.3,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 29,
+                "HumidityIn": 56,
+                "HumidityOut": 57,
+                "SolarRadiation": 444.9,
+                "TempIn": 28.2,
+                "TempOut": 28.1,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 09:49": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 463.5,
+                "TempIn": 28.2,
+                "TempOut": 28.4,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 09:50": {
+                "AbsPressure": 1013.0,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 57,
+                "HumidityOut": 57,
+                "SolarRadiation": 464.7,
+                "TempIn": 28.2,
+                "TempOut": 28.3,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 09:55": {
+                "AbsPressure": 1013.1,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 56,
+                "HumidityOut": 54,
+                "SolarRadiation": 479.0,
+                "TempIn": 28.2,
+                "TempOut": 28.9,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 10:00": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 56,
+                "HumidityOut": 52,
+                "SolarRadiation": 491.0,
+                "TempIn": 28.3,
+                "TempOut": 29.2,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:05": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 56,
+                "HumidityOut": 53,
+                "SolarRadiation": 500.1,
+                "TempIn": 28.4,
+                "TempOut": 29.2,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 0,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:10": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 56,
+                "HumidityOut": 49,
+                "SolarRadiation": 518.3,
+                "TempIn": 28.4,
+                "TempOut": 30.6,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 10:15": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 55,
+                "HumidityOut": 51,
+                "SolarRadiation": 427.5,
+                "TempIn": 28.5,
+                "TempOut": 29.7,
+                "WindDirection": "SE",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:19": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 55,
+                "HumidityOut": 50,
+                "SolarRadiation": 481.1,
+                "TempIn": 28.5,
+                "TempOut": 29.6,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 2,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:21": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 55,
+                "HumidityOut": 50,
+                "SolarRadiation": 581.5,
+                "TempIn": 28.6,
+                "TempOut": 29.7,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 10:26": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 55,
+                "HumidityOut": 53,
+                "SolarRadiation": 506.0,
+                "TempIn": 28.6,
+                "TempOut": 29.0,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 10:32": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 55,
+                "HumidityOut": 50,
+                "SolarRadiation": 589.7,
+                "TempIn": 28.6,
+                "TempOut": 29.5,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:37": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 54,
+                "HumidityOut": 46,
+                "SolarRadiation": 613.1,
+                "TempIn": 28.7,
+                "TempOut": 30.8,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 10:42": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 54,
+                "HumidityOut": 49,
+                "SolarRadiation": 563.0,
+                "TempIn": 28.7,
+                "TempOut": 30.0,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 10:47": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 54,
+                "HumidityOut": 45,
+                "SolarRadiation": 609.8,
+                "TempIn": 28.8,
+                "TempOut": 30.8,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 10:52": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 54,
+                "HumidityOut": 46,
+                "SolarRadiation": 614.1,
+                "TempIn": 28.8,
+                "TempOut": 30.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 10:57": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 53,
+                "HumidityOut": 45,
+                "SolarRadiation": 613.8,
+                "TempIn": 28.9,
+                "TempOut": 31.2,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 11:02": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 53,
+                "HumidityOut": 41,
+                "SolarRadiation": 624.0,
+                "TempIn": 28.9,
+                "TempOut": 32.5,
+                "WindDirection": "SSE",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 11:07": {
+                "AbsPressure": 1012.8,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 53,
+                "HumidityOut": 43,
+                "SolarRadiation": 630.7,
+                "TempIn": 28.9,
+                "TempOut": 31.8,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 11:12": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 52,
+                "HumidityOut": 43,
+                "SolarRadiation": 638.0,
+                "TempIn": 29.0,
+                "TempOut": 32.0,
+                "WindDirection": "S",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 11:17": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 52,
+                "HumidityOut": 46,
+                "SolarRadiation": 646.4,
+                "TempIn": 29.0,
+                "TempOut": 30.6,
+                "WindDirection": "SE",
+                "WindChill": null,
+                "WindGust": 4,
+                "WindAvg": 2
+            }
+        },
+        {
+            "07/02/2025 11:22": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 52,
+                "HumidityOut": 45,
+                "SolarRadiation": 654.4,
+                "TempIn": 29.1,
+                "TempOut": 31.1,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 11:27": {
+                "AbsPressure": 1012.9,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 52,
+                "HumidityOut": 44,
+                "SolarRadiation": 668.6,
+                "TempIn": 29.1,
+                "TempOut": 30.7,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 4
+            }
+        },
+        {
+            "07/02/2025 11:33": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 51,
+                "HumidityOut": 47,
+                "SolarRadiation": 670.8,
+                "TempIn": 29.2,
+                "TempOut": 30.8,
+                "WindDirection": "NW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 9
+            }
+        },
+        {
+            "07/02/2025 11:38": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 52,
+                "HumidityOut": 45,
+                "SolarRadiation": 685.3,
+                "TempIn": 29.2,
+                "TempOut": 31.2,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 11:43": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 52,
+                "HumidityOut": 44,
+                "SolarRadiation": 500.1,
+                "TempIn": 29.3,
+                "TempOut": 32.0,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 11:48": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 52,
+                "HumidityOut": 47,
+                "SolarRadiation": 684.6,
+                "TempIn": 29.3,
+                "TempOut": 31.1,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 7,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 11:53": {
+                "AbsPressure": 1012.7,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 51,
+                "HumidityOut": 50,
+                "SolarRadiation": 698.1,
+                "TempIn": 29.4,
+                "TempOut": 29.9,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 11:58": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 30,
+                "HumidityIn": 51,
+                "HumidityOut": 47,
+                "SolarRadiation": 707.1,
+                "TempIn": 29.4,
+                "TempOut": 29.8,
+                "WindDirection": "SSE",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 12:03": {
+                "AbsPressure": 1012.3,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 31,
+                "HumidityIn": 51,
+                "HumidityOut": 48,
+                "SolarRadiation": 712.8,
+                "TempIn": 29.4,
+                "TempOut": 30.3,
+                "WindDirection": "E",
+                "WindChill": null,
+                "WindGust": 5,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 12:08": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 51,
+                "HumidityOut": 47,
+                "SolarRadiation": 718.5,
+                "TempIn": 29.5,
+                "TempOut": 31.1,
+                "WindDirection": "SSE",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 3
+            }
+        },
+        {
+            "07/02/2025 12:13": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 51,
+                "HumidityOut": 46,
+                "SolarRadiation": 722.8,
+                "TempIn": 29.5,
+                "TempOut": 30.9,
+                "WindDirection": "S",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 12:18": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 51,
+                "HumidityOut": 47,
+                "SolarRadiation": 733.0,
+                "TempIn": 29.5,
+                "TempOut": 31.1,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 6
+            }
+        },
+        {
+            "07/02/2025 12:23": {
+                "AbsPressure": 1012.6,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 34,
+                "HumidityIn": 52,
+                "HumidityOut": 44,
+                "SolarRadiation": 736.6,
+                "TempIn": 29.6,
+                "TempOut": 32.3,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 7
+            }
+        },
+        {
+            "07/02/2025 12:36": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 51,
+                "HumidityOut": 45,
+                "SolarRadiation": 744.0,
+                "TempIn": 29.8,
+                "TempOut": 31.8,
+                "WindDirection": "WNW",
+                "WindChill": null,
+                "WindGust": 13,
+                "WindAvg": 5
+            }
+        },
+        {
+            "07/02/2025 12:38": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 19,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 51,
+                "HumidityOut": 46,
+                "SolarRadiation": 748.6,
+                "TempIn": 29.8,
+                "TempOut": 31.7,
+                "WindDirection": "SSE",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 12:43": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 50,
+                "HumidityOut": 45,
+                "SolarRadiation": 755.7,
+                "TempIn": 29.8,
+                "TempOut": 31.2,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 12:48": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 50,
+                "HumidityOut": 43,
+                "SolarRadiation": 760.7,
+                "TempIn": 29.9,
+                "TempOut": 32.1,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 15,
+                "WindAvg": 10
+            }
+        },
+        {
+            "07/02/2025 12:49": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 33,
+                "HumidityIn": 49,
+                "HumidityOut": 44,
+                "SolarRadiation": 762.0,
+                "TempIn": 29.9,
+                "TempOut": 32.1,
+                "WindDirection": "SW",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 12:53": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 18,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 50,
+                "HumidityOut": 45,
+                "SolarRadiation": 763.5,
+                "TempIn": 29.9,
+                "TempOut": 31.4,
+                "WindDirection": "WSW",
+                "WindChill": null,
+                "WindGust": 15,
+                "WindAvg": 8
+            }
+        },
+        {
+            "07/02/2025 12:55": {
+                "AbsPressure": 1012.4,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 50,
+                "HumidityOut": 44,
+                "SolarRadiation": 766.4,
+                "TempIn": 29.9,
+                "TempOut": 31.2,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 1
+            }
+        },
+        {
+            "07/02/2025 13:01": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 49,
+                "HumidityOut": 43,
+                "SolarRadiation": 769.7,
+                "TempIn": 29.9,
+                "TempOut": 31.3,
+                "WindDirection": "W",
+                "WindChill": null,
+                "WindGust": 9,
+                "WindAvg": 0
+            }
+        },
+        {
+            "07/02/2025 13:02": {
+                "AbsPressure": 1012.5,
+                "DewPoint": 17,
+                "Rain": 0.0,
+                "FeelsLike": 32,
+                "HumidityIn": 48,
+                "HumidityOut": 42,
+                "SolarRadiation": 773.3,
+                "TempIn": 29.9,
+                "TempOut": 31.6,
+                "WindDirection": "SSW",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 9
             }
         }
     ]

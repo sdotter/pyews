@@ -99,15 +99,20 @@ def import_sqlite_to_mysql(mysql_connection):
 def table_exists(mysql_connection):
     """Check if the weather_observations table exists in the MySQL database."""
     cursor = mysql_connection.cursor()
-    cursor.execute("""
-        SELECT COUNT(*)
-        FROM information_schema.tables
-        WHERE table_name = 'weather_observations'
-        AND table_schema = '{}'
-    """.format(MYSQL_CONFIG['database']))
-    exists = cursor.fetchone()[0] > 0
-    cursor.close()
-    return exists
+    try:
+        cursor.execute("""
+            SELECT table_name, table_schema
+            FROM information_schema.tables
+            WHERE table_name = %s
+            AND table_schema = %s
+        """, ('weather_observations', MYSQL_CONFIG['database']))
+        result = cursor.fetchone()
+        return result is not None
+    except Exception as e:
+        logging.error(f"Error checking if table exists: {e}", exc_info=True)
+        return False
+    finally:
+        cursor.close()
 
 def save_to_db(data, db_type='sqlite', conn=None):
     """
@@ -160,32 +165,38 @@ def save_to_db(data, db_type='sqlite', conn=None):
             cursor = conn.cursor()
             logging.info("Trying to save data to MySQL database...")
 
-            cursor.execute('''
-                INSERT INTO weather_observations (
-                    timestamp, temp, temp_in, humidity, humidity_in,
-                    pressure_abs, pressure_rel, rain_rate, rain_event,
-                    rain_hourly, rain_daily, rain_weekly, rain_monthly, rain_yearly,
-                    wind_degree, wind_gust, wind_gust_maxdaily, wind_speed,
-                    solarradiation, uv
-                )
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-            ''', (
-                data['timestamp'], data['temp'], data['temp_in'], data['humidity'], data['humidity_in'],
-                data['pressure_abs'], data['pressure_rel'], data['rain_rate'], data['rain_event'],
-                data['rain_hourly'], data['rain_daily'], data['rain_weekly'], data['rain_monthly'],
-                data['rain_yearly'], data['wind_degree'], data['wind_gust'], data['wind_gust_maxdaily'],
-                data['wind_speed'], data['solarradiation'], data['uv']
-            ))
-
-            conn.commit()
-            logging.info("Data successfully saved to MySQL database.")
+            try:
+                cursor.execute('''
+                    INSERT INTO weather_observations (
+                        timestamp, temp, temp_in, humidity, humidity_in,
+                        pressure_abs, pressure_rel, rain_rate, rain_event,
+                        rain_hourly, rain_daily, rain_weekly, rain_monthly, rain_yearly,
+                        wind_degree, wind_gust, wind_gust_maxdaily, wind_speed,
+                        solarradiation, uv
+                    )
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ''', (
+                    data['timestamp'], data['temp'], data['temp_in'], data['humidity'], data['humidity_in'],
+                    data['pressure_abs'], data['pressure_rel'], data['rain_rate'], data['rain_event'],
+                    data['rain_hourly'], data['rain_daily'], data['rain_weekly'], data['rain_monthly'],
+                    data['rain_yearly'], data['wind_degree'], data['wind_gust'], data['wind_gust_maxdaily'],
+                    data['wind_speed'], data['solarradiation'], data['uv']
+                ))
+                
+                conn.commit()
+                logging.info("Data successfully saved to MySQL database.")
         
-        else:
-            logging.error(f"Invalid db_type '{db_type}' or MySQL connection not provided.")
-
-    except (sqlite3.Error, pymysql.MySQLError) as e:
-        logging.error(f"Database error ({db_type}): {e}")
-
+            except pymysql.MySQLError as e:
+                logging.error(f"Database error (mysql): {e}")
+                if conn and not conn.open:
+                    # Try reconnecting once if connection is lost
+                    logging.info("Re-establishing MySQL connection...")
+                    conn.ping(reconnect=True)
+                    # Retry the query after reconnect
+                    save_to_db(data, db_type, conn)
+                    
+    except Exception as e:
+        logging.error(f"Unexpected error during database operation: {e}")
     finally:
         if db_type == 'mysql' and cursor:
             cursor.close()

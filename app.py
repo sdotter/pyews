@@ -41,18 +41,53 @@ signal.signal(signal.SIGINT, signal_handler)    # Handle interrupt signal (Ctrl+
 signal.signal(signal.SIGTERM, signal_handler)   # Handle termination signal
 
 def get_mysql_connection():
-    """Get a persistent MySQL connection through the SSH tunnel."""
+    """Get or renew a persistent MySQL connection through the SSH tunnel safely."""
     global mysql_connection
-    if mysql_connection is None or not mysql_connection.open:  
-        ssh_tunnel = get_ssh_tunnel()  
-        mysql_connection = pymysql.connect(
-            host='127.0.0.1',
-            user=MYSQL_CONFIG['user'],
-            password=MYSQL_CONFIG['password'],
-            db=MYSQL_CONFIG['database'],
-            port=ssh_tunnel.local_bind_port
-        )
+    try:
+        if mysql_connection is None:
+            logging.info("No MySQL connection, creating a new one...")
+            ssh_tunnel = get_ssh_tunnel()
+            mysql_connection = pymysql.connect(
+                host='127.0.0.1',
+                user=MYSQL_CONFIG['user'],
+                password=MYSQL_CONFIG['password'],
+                db=MYSQL_CONFIG['database'],
+                port=ssh_tunnel.local_bind_port,
+                autocommit=True,
+                connect_timeout=10,
+                read_timeout=10,
+                write_timeout=10,
+                cursorclass=pymysql.cursors.DictCursor
+            )
+        else:
+            # Ping the server to test or reconnect if needed
+            try:
+                mysql_connection.ping(reconnect=True)
+            except Exception as e:
+                logging.warning(f"MySQL ping failed, reconnecting: {e}")
+                mysql_connection.close()
+                mysql_connection = None
+                return get_mysql_connection()  # recursive call to reconnect
+
+    except pymysql.MySQLError as e:
+        logging.error(f"MySQL connection failed: {e}")
+        mysql_connection = None
+        raise e
     return mysql_connection
+
+def with_mysql_connection(func):
+    """Decorator to auto-handle lost connection by reconnecting and retrying once if needed."""
+    def wrapper(*args, **kwargs):
+        conn = get_mysql_connection()
+        try:
+            return func(conn, *args, **kwargs)
+        except (pymysql.err.OperationalError, pymysql.err.InternalError) as e:
+            logging.warning(f"MySQL operational error encountered: {e}, retrying once...")
+            # Reconnect and retry once
+            close_mysql_connection()
+            conn = get_mysql_connection()
+            return func(conn, *args, **kwargs)
+    return wrapper
 
 def close_mysql_connection():
     """Close the MySQL connection when the application is shutting down."""
@@ -187,7 +222,8 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
         user=MYSQL_CONFIG['user'],
         password=MYSQL_CONFIG['password'],
         db=MYSQL_CONFIG['database'],
-        port=ssh.local_bind_port
+        port=ssh.local_bind_port,
+        autocommit=False  # We will commit manually in batches
     )
 
     cursor = conn.cursor()
@@ -199,6 +235,8 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
     row_count = 0
     skipped = 0
     errors = 0
+    batch = []
+    BATCH_SIZE = 5000  # Increased batch size for performance
 
     for year in sorted(os.listdir(base_path)):
         year_path = os.path.join(base_path, year)
@@ -218,8 +256,6 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
                 file_path = os.path.join(month_path, fname)
                 logging.info(f"📂 Importing file: {file_path}")
 
-                batch = []
-
                 with open(file_path, 'r') as file:
                     for line in file:
                         line = line.strip()
@@ -231,7 +267,7 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
                             skipped += 1
                             continue
 
-                        # Always define timestamp from part[0]
+                        # Parse timestamp once
                         try:
                             timestamp = datetime.strptime(parts[0], "%Y-%m-%d %H:%M:%S")
                         except Exception as e:
@@ -243,7 +279,6 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
                             parts.append(None)
 
                         try:
-                            datetime.strptime(parts[0], "%Y-%m-%d %H:%M:%S")
                             temp = float(parts[5]) if parts[5] else None
                             temp_in = float(parts[3]) if parts[3] else None
                             humidity = int(float(parts[4])) if parts[4] else None
@@ -274,8 +309,9 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
 
                             batch.append(data)
 
-                            if len(batch) >= 1000:
+                            if len(batch) >= BATCH_SIZE:
                                 cursor.executemany(insert_query, batch)
+                                conn.commit()  # Commit per batch
                                 row_count += len(batch)
                                 batch.clear()
 
@@ -283,16 +319,16 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
                             logging.info(f"❌ Error parsing line: {line} → {e}")
                             errors += 1
 
-                if batch:
-                    cursor.executemany(insert_query, batch)
-                    row_count += len(batch)
-                    batch.clear()
-
-    conn.commit()
+    # Insert any remaining records
+    if batch:
+        cursor.executemany(insert_query, batch)
+        conn.commit()
+        row_count += len(batch)
+        batch.clear()
 
     # Reset IDs after import
     reset_ids_in_order(conn)
-    
+
     cursor.close()
     conn.close()
 
@@ -324,9 +360,6 @@ def receive_ecowitt():
         # logging.info the complete POST data for logging
         logging.info("POST received from: {}".format(request.remote_addr))
 
-        # Get the persistent MySQL connection
-        conn = get_mysql_connection()
-
         # Prepare the data structure
         weather_data = request.form.to_dict()
         raw_data_to_store, raw_data_to_custom, xml_data_to_store, db_data_to_store, formatted_data = process_weather_data(weather_data)
@@ -348,8 +381,12 @@ def receive_ecowitt():
         # Save to SQLite database
         save_to_db(db_data_to_store, 'sqlite')
 
-        # Save to MySQL database using the persistent connection
-        save_to_db(db_data_to_store, 'mysql', conn)
+        # Save to MySQL database using the persistent connection with automatic reconnect retry
+        @with_mysql_connection
+        def save_mysql(conn, data):
+            save_to_db(data, 'mysql', conn)
+
+        save_mysql(db_data_to_store)
 
         # Save to local storage
         DATA_STORE.save_data(raw_data_to_store, datatype='raw')
@@ -398,7 +435,7 @@ if __name__ == "__main__":
     logging.info("Script is running...")
 
     # To run a one-time import from historical files to MySQL, uncomment:
-    #import_saved_data_to_mysql()
+    import_saved_data_to_mysql()
     
     try:
         app.run(debug=True, host="0.0.0.0", port=8090, use_reloader=False)
