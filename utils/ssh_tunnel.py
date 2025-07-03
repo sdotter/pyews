@@ -15,7 +15,7 @@ def get_ssh_tunnel():
             ssh_username=SSH_CONFIG['ssh_username'],
             ssh_password=SSH_CONFIG['ssh_password'],
             remote_bind_address=(MYSQL_CONFIG['host'], int(MYSQL_CONFIG['port'])),
-            local_bind_address=('127.0.0.1', 3306)
+            local_bind_address=('127.0.0.1', 0)
         )
         ssh.start()
         SSH_TUNNEL = ssh
