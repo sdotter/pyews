@@ -4,6 +4,7 @@ import os
 import sys
 import signal
 import pymysql
+import urllib3
 import requests
 import threading
 from datetime import datetime
@@ -39,6 +40,8 @@ def signal_handler(sig, frame):
 # Register signal handlers for gracefully shutting down the application
 signal.signal(signal.SIGINT, signal_handler)    # Handle interrupt signal (Ctrl+C)
 signal.signal(signal.SIGTERM, signal_handler)   # Handle termination signal
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def get_mysql_connection():
     """Get or renew a persistent MySQL connection through the SSH tunnel safely."""
@@ -370,7 +373,7 @@ def receive_ecowitt():
         # Forward the POST request to the other server
         url = HASS_URL
         try:
-            response = requests.post(url, data=weather_data)
+            response = requests.post(url, data=weather_data, verify=False)
             if response.status_code == 200:
                 logging.info("POST forwarded successfully to Home Assistant")
             else:
