@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from flask import Flask, request
 from utils.ssh_tunnel import get_ssh_tunnel  
 from utils.logging import logging, configure_logging
-from data_processing import process_weather_data, should_process_data, save_to_24h_json, save_to_1w_json, save_to_1m_json, save_to_1y_json, save_to_custom_json, save_to_xml
+from data_processing import process_weather_data, should_process_data, save_to_24h_json, save_to_1w_json, save_to_1m_json, save_to_1y_json, save_to_custom_json, save_to_xml, save_1y_compressed
 from utils.ftp import upload_to_ftp
 from database import save_to_db, import_sqlite_to_mysql, table_exists
 from globals import *
@@ -459,6 +459,8 @@ def receive_ecowitt():
 
         if should_process_data("6hour", 360):
             logging.info("6-hour condition met. Preparing to process and upload data...")
+            save_1y_compressed()
+            upload_to_ftp(DATA_PATH + "/1y-compressed.json", FTP_PATH + '/1y-compressed.json')
             upload_to_ftp(DATA_PATH + '/weather_data.db', FTP_PATH + '/weather_data.db')
 
         logging.info("POST processing done!")

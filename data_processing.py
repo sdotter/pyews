@@ -454,3 +454,75 @@ def process_weather_data(weather_data):
     raw_data_to_custom["solarradiation"] = round(float(weather_data.get('solarradiation', 0)), 1)
 
     return raw_data_to_store, raw_data_to_custom, xml_data_to_store, db_data_to_store, formatted_data
+
+def save_1y_compressed():
+    '''
+    Read 1y.json, bucket data into 6-hour intervals, and save averages to 1y-compressed.json.
+    The structure and averaging logic matches save_to_1y_json, but with fewer records.
+    '''
+    import os
+    import json
+    from collections import defaultdict
+    from statistics import mean
+    from globals import DATA_PATH, TIMEZONE
+    from datetime import datetime, timedelta
+
+    input_path = os.path.join(DATA_PATH, "1y.json")
+    output_path = os.path.join(DATA_PATH, "1y-compressed.json")
+
+    try:
+        with open(input_path, 'r') as f:
+            file_data = json.load(f)
+            existing_data = file_data.get("data", [])
+    except Exception as e:
+        logging.error(f"Failed to read 1y.json: {e}")
+        return
+
+    # Bucket records by 6-hour intervals
+    buckets = defaultdict(list)
+    for record in existing_data:
+        for timestamp_str, values in record.items():
+            try:
+                dt = datetime.strptime(timestamp_str, "%m/%d/%Y %H:%M").replace(tzinfo=TIMEZONE)
+                # Find the start of the 6-hour bucket
+                bucket_hour = (dt.hour // 6) * 6
+                bucket_start = dt.replace(hour=bucket_hour, minute=0, second=0, microsecond=0)
+                bucket_key = bucket_start.strftime("%Y-%m-%d %H:%M")
+                buckets[bucket_key].append(values)
+            except Exception as e:
+                logging.warning(f"Skipping record with bad timestamp: {timestamp_str} ({e})")
+
+    # For each bucket, calculate averages for numeric fields
+    compressed_data = []
+    for bucket_key in sorted(buckets.keys()):
+        records = buckets[bucket_key]
+        if not records:
+            continue
+        # Collect all keys
+        all_keys = set()
+        for r in records:
+            all_keys.update(r.keys())
+        avg_record = {}
+        for k in all_keys:
+            values = [r[k] for r in records if k in r and isinstance(r[k], (int, float))]
+            if values:
+                if k.lower() == "windgust":
+                    avg_record[k] = max(values)
+                else:
+                    avg_record[k] = round(mean(values), 2)
+            else:
+                # For non-numeric or missing, just take the first non-None value
+                for r in records:
+                    if k in r and r[k] is not None:
+                        avg_record[k] = r[k]
+                        break
+                else:
+                    avg_record[k] = None
+        compressed_data.append({bucket_key: avg_record})
+
+    try:
+        with open(output_path, 'w') as f:
+            json.dump({"data": compressed_data}, f, indent=4)
+        logging.info(f"Compressed 1y.json to 1y-compressed.json with {len(compressed_data)} records.")
+    except Exception as e:
+        logging.error(f"Failed to write 1y-compressed.json: {e}")
