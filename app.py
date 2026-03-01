@@ -21,6 +21,9 @@ app = Flask(__name__)
 
 load_dotenv(os.path.join(os.path.dirname(os.path.realpath(__file__)), '.env'))
 
+# Set to True to import all historical data, ignoring the latest timestamp in MySQL. Use with caution!
+IMPORT_ALL = False
+
 # Configure logging
 configure_logging()
 
@@ -174,7 +177,7 @@ def reset_ids_in_order(conn):
     finally:
         cursor.close()
 
-def import_saved_data_to_mysql(data_root='data', datatype='raw'):
+def import_saved_data_to_mysql(data_root='data', datatype='raw', batch_size=50000, commit_every_batches=5, import_all=IMPORT_ALL):
     """One-time import of historical data from local files into MySQL."""
 
     logging.info("Starting one-time import of historical data to MySQL...")
@@ -232,14 +235,24 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
     cursor = conn.cursor()
     logging.info("Trying to create MySQL table if not exists...")
     cursor.execute(create_table_query)
+    latest_imported_ts = None
+    if not import_all:
+        cursor.execute(f"SELECT MAX(timestamp) FROM {table_name}")
+        latest_imported_ts = cursor.fetchone()[0]
+        if latest_imported_ts:
+            logging.info(f"ℹ️ Resuming import from latest MySQL timestamp: {latest_imported_ts}")
+    else:
+        logging.info("ℹ️ Full import requested: ignoring latest imported timestamp.")
 
     base_path = os.path.join(data_root, datatype)
     total_files = 0
     row_count = 0
     skipped = 0
     errors = 0
+    skipped_files = 0
     batch = []
-    BATCH_SIZE = 5000  # Increased batch size for performance
+    BATCH_SIZE = batch_size
+    pending_batches = 0
 
     for year in sorted(os.listdir(base_path)):
         year_path = os.path.join(base_path, year)
@@ -254,6 +267,15 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
             for fname in sorted(os.listdir(month_path)):
                 if not fname.endswith('.txt'):
                     continue
+
+                if latest_imported_ts:
+                    try:
+                        file_day = datetime.strptime(fname[:-4], "%Y-%m-%d").date()
+                        if file_day < latest_imported_ts.date():
+                            skipped_files += 1
+                            continue
+                    except Exception:
+                        pass
 
                 total_files += 1
                 file_path = os.path.join(month_path, fname)
@@ -276,6 +298,9 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
                         except Exception as e:
                             logging.info(f"⚠️ Invalid timestamp on line: {line} → {e}")
                             errors += 1
+                            continue
+
+                        if latest_imported_ts and timestamp <= latest_imported_ts:
                             continue
 
                         while len(parts) < 14:
@@ -314,7 +339,10 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
 
                             if len(batch) >= BATCH_SIZE:
                                 cursor.executemany(insert_query, batch)
-                                conn.commit()  # Commit per batch
+                                pending_batches += 1
+                                if pending_batches >= commit_every_batches:
+                                    conn.commit()
+                                    pending_batches = 0
                                 row_count += len(batch)
                                 batch.clear()
 
@@ -325,9 +353,12 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
     # Insert any remaining records
     if batch:
         cursor.executemany(insert_query, batch)
-        conn.commit()
+        pending_batches += 1
         row_count += len(batch)
         batch.clear()
+
+    if pending_batches:
+        conn.commit()
 
     # Reset IDs after import
     reset_ids_in_order(conn)
@@ -335,7 +366,7 @@ def import_saved_data_to_mysql(data_root='data', datatype='raw'):
     cursor.close()
     conn.close()
 
-    logging.info(f"✅ Import done. Files: {total_files}, Rows: {row_count}, Skipped: {skipped}, Errors: {errors}")
+    logging.info(f"✅ Import done. Files: {total_files}, Rows: {row_count}, Skipped: {skipped}, Skipped files: {skipped_files}, Errors: {errors}")
 
 @app.before_first_request
 def setup():
