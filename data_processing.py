@@ -409,12 +409,19 @@ def process_weather_data(weather_data):
     db_data_to_store['pressure_abs'] = round(inHg_to_hPa(float(weather_data.get('baromabsin', 0))), 1)
     db_data_to_store['pressure_rel'] = round(inHg_to_hPa(float(weather_data.get('baromrelin', 0))), 1)
     db_data_to_store['rain_rate'] = round(float(inches_to_mm(float(weather_data.get('rainratein', 0.0)))), 1)
+    # Explicit metric rate; retain legacy Rain for older website clients.
+    formatted_data[formatted_datetime]['RainRate'] = db_data_to_store['rain_rate']
     db_data_to_store['rain_event'] = round(float(inches_to_mm(float(weather_data.get('eventrainin', 0.0)))), 1)
     db_data_to_store['rain_hourly'] = round(float(inches_to_mm(float(weather_data.get('hourlyrainin', 0.0)))), 1)
     db_data_to_store['rain_daily'] = round(float(inches_to_mm(float(weather_data.get('dailyrainin', 0.0)))), 1)
     db_data_to_store['rain_weekly'] = round(float(inches_to_mm(float(weather_data.get('weeklyrainin', 0.0)))), 1)
     db_data_to_store['rain_monthly']  = round(float(inches_to_mm(float(weather_data.get('monthlyrainin', 0.0)))), 1)
     db_data_to_store['rain_yearly'] = round(float(inches_to_mm(float(weather_data.get('yearlyrainin', 0.0)))), 1)
+    # Export Ecowitt's own counters in mm; no reconstruction or database reads.
+    for name in ('daily', 'weekly', 'monthly', 'yearly'):
+        formatted_data[formatted_datetime]['Rain' + name.capitalize()] = (
+            db_data_to_store['rain_' + name] if name + 'rainin' in weather_data else None
+        )
     db_data_to_store['wind_degree'] = round(float(weather_data["winddir"]), 1)
     db_data_to_store['wind_gust'] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
     db_data_to_store['wind_gust_maxdaily'] = int(mph_to_kph(weather_data.get('maxdailygust', 0)))
@@ -442,7 +449,7 @@ def process_weather_data(weather_data):
     raw_data_to_store['wind_ave'] = int(mph_to_kph(weather_data.get('windspeedmph', 0)))
     raw_data_to_store['wind_gust'] = int(mph_to_kph(weather_data.get('windgustmph', 0)))
     raw_data_to_store['wind_dir'] = int(weather_data["winddir"])
-    raw_data_to_store['rain'] = round(float(inches_to_mm(float(weather_data.get('dailyrainin ', 0.0)))), 1)
+    raw_data_to_store['rain'] = round(float(inches_to_mm(float(weather_data.get('dailyrainin', 0.0)))), 1)
     raw_data_to_store['illuminance'] = round(float(weather_data.get('solarradiation', 0)), 1)
     raw_data_to_store['uv'] = int(round(float(weather_data.get('uv', 0.0))))
 
@@ -506,7 +513,11 @@ def save_1y_compressed():
         for k in all_keys:
             values = [r[k] for r in records if k in r and isinstance(r[k], (int, float))]
             if values:
-                if k.lower() == "windgust":
+                if k == "RainRate":
+                    avg_record[k] = round(mean(values), 1)
+                elif k in ('RainDaily', 'RainWeekly', 'RainMonthly', 'RainYearly'):
+                    avg_record[k] = records[-1].get(k)
+                elif k.lower() == "windgust":
                     avg_record[k] = max(values)
                 else:
                     avg_record[k] = round(mean(values), 2)

@@ -1,278 +1,6 @@
 {
     "data": [
         {
-            "10/18/2026 19:26": {
-                "AbsPressure": 1026.1,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 11,
-                "HumidityIn": 62,
-                "HumidityOut": 85,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.6,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 13,
-                "WindAvg": 8
-            }
-        },
-        {
-            "10/18/2026 19:32": {
-                "AbsPressure": 1026.4,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 62,
-                "HumidityOut": 85,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 4
-            }
-        },
-        {
-            "10/18/2026 19:37": {
-                "AbsPressure": 1026.4,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 62,
-                "HumidityOut": 85,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.5,
-                "TempOut": 10.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 4
-            }
-        },
-        {
-            "10/18/2026 19:43": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 62,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.5,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 7
-            }
-        },
-        {
-            "10/18/2026 19:49": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 62,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 7
-            }
-        },
-        {
-            "10/18/2026 19:54": {
-                "AbsPressure": 1026.4,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 62,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 5
-            }
-        },
-        {
-            "10/18/2026 19:59": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NNE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 3
-            }
-        },
-        {
-            "10/18/2026 20:05": {
-                "AbsPressure": 1026.6,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 13,
-                "WindAvg": 10
-            }
-        },
-        {
-            "10/18/2026 20:11": {
-                "AbsPressure": 1026.6,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 7,
-                "WindAvg": 3
-            }
-        },
-        {
-            "10/18/2026 20:17": {
-                "AbsPressure": 1026.7,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 4
-            }
-        },
-        {
-            "10/18/2026 20:22": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 86,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.4,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 5
-            }
-        },
-        {
-            "10/18/2026 20:28": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 87,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 6
-            }
-        },
-        {
-            "10/18/2026 20:34": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 87,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.3,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 4
-            }
-        },
-        {
-            "10/18/2026 20:40": {
-                "AbsPressure": 1026.5,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 88,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.3,
-                "TempOut": 10.2,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 11,
-                "WindAvg": 7
-            }
-        },
-        {
-            "10/18/2026 20:45": {
-                "AbsPressure": 1026.7,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 88,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.4,
-                "TempOut": 10.2,
-                "WindDirection": "ENE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 3
-            }
-        },
-        {
-            "10/18/2026 20:50": {
-                "AbsPressure": 1026.6,
-                "DewPoint": 8,
-                "Rain": 0.0,
-                "FeelsLike": 10,
-                "HumidityIn": 63,
-                "HumidityOut": 89,
-                "SolarRadiation": 0.0,
-                "TempIn": 20.3,
-                "TempOut": 10.1,
-                "WindDirection": "NE",
-                "WindChill": null,
-                "WindGust": 9,
-                "WindAvg": 5
-            }
-        },
-        {
             "10/18/2026 20:55": {
                 "AbsPressure": 1026.6,
                 "DewPoint": 8,
@@ -286,7 +14,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 1.8,
+                "RainDaily": 0.5,
+                "RainWeekly": 0.5,
+                "RainMonthly": 31.0,
+                "RainYearly": 542.0
             }
         },
         {
@@ -303,7 +36,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 1.8,
+                "RainDaily": 0.5,
+                "RainWeekly": 0.5,
+                "RainMonthly": 31.0,
+                "RainYearly": 542.0
             }
         },
         {
@@ -320,7 +58,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 0.5,
+                "RainWeekly": 0.5,
+                "RainMonthly": 31.0,
+                "RainYearly": 542.0
             }
         },
         {
@@ -337,7 +80,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 1.2,
+                "RainDaily": 0.7,
+                "RainWeekly": 0.7,
+                "RainMonthly": 31.2,
+                "RainYearly": 542.2
             }
         },
         {
@@ -354,7 +102,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 1.2,
+                "RainDaily": 0.7,
+                "RainWeekly": 0.7,
+                "RainMonthly": 31.2,
+                "RainYearly": 542.2
             }
         },
         {
@@ -371,7 +124,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 1.8,
+                "RainDaily": 1.0,
+                "RainWeekly": 1.0,
+                "RainMonthly": 31.5,
+                "RainYearly": 542.5
             }
         },
         {
@@ -388,7 +146,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 1.8,
+                "RainDaily": 1.0,
+                "RainWeekly": 1.0,
+                "RainMonthly": 31.5,
+                "RainYearly": 542.5
             }
         },
         {
@@ -405,7 +168,12 @@
                 "WindDirection": "N",
                 "WindChill": 7,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 1.2,
+                "RainDaily": 1.2,
+                "RainWeekly": 1.2,
+                "RainMonthly": 31.7,
+                "RainYearly": 542.7
             }
         },
         {
@@ -422,7 +190,12 @@
                 "WindDirection": "NNE",
                 "WindChill": 7,
                 "WindGust": 9,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 1.2,
+                "RainDaily": 1.2,
+                "RainWeekly": 1.2,
+                "RainMonthly": 31.7,
+                "RainYearly": 542.7
             }
         },
         {
@@ -439,7 +212,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.2,
+                "RainWeekly": 1.2,
+                "RainMonthly": 31.7,
+                "RainYearly": 542.7
             }
         },
         {
@@ -456,7 +234,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 7,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 1.8,
+                "RainDaily": 1.5,
+                "RainWeekly": 1.5,
+                "RainMonthly": 32.0,
+                "RainYearly": 543.0
             }
         },
         {
@@ -473,7 +256,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 1.5,
+                "RainMonthly": 32.0,
+                "RainYearly": 543.0
             }
         },
         {
@@ -490,7 +278,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 1.8,
+                "RainDaily": 1.8,
+                "RainWeekly": 1.8,
+                "RainMonthly": 32.3,
+                "RainYearly": 543.3
             }
         },
         {
@@ -507,7 +300,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.8,
+                "RainWeekly": 1.8,
+                "RainMonthly": 32.3,
+                "RainYearly": 543.3
             }
         },
         {
@@ -524,7 +322,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 9,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 1.2,
+                "RainDaily": 2.0,
+                "RainWeekly": 2.0,
+                "RainMonthly": 32.5,
+                "RainYearly": 543.5
             }
         },
         {
@@ -541,7 +344,12 @@
                 "WindDirection": "NE",
                 "WindChill": 7,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 3.0,
+                "RainDaily": 2.3,
+                "RainWeekly": 2.3,
+                "RainMonthly": 32.8,
+                "RainYearly": 543.8
             }
         },
         {
@@ -558,7 +366,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 1.8,
+                "RainDaily": 2.3,
+                "RainWeekly": 2.3,
+                "RainMonthly": 32.8,
+                "RainYearly": 543.8
             }
         },
         {
@@ -575,7 +388,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 1.2,
+                "RainDaily": 2.5,
+                "RainWeekly": 2.5,
+                "RainMonthly": 33.0,
+                "RainYearly": 544.0
             }
         },
         {
@@ -592,7 +410,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 3.0,
+                "RainDaily": 2.8,
+                "RainWeekly": 2.8,
+                "RainMonthly": 33.3,
+                "RainYearly": 544.3
             }
         },
         {
@@ -609,7 +432,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 3.0,
+                "RainDaily": 3.0,
+                "RainWeekly": 3.0,
+                "RainMonthly": 33.5,
+                "RainYearly": 544.5
             }
         },
         {
@@ -626,7 +454,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 1.2,
+                "RainDaily": 3.0,
+                "RainWeekly": 3.0,
+                "RainMonthly": 33.5,
+                "RainYearly": 544.5
             }
         },
         {
@@ -643,7 +476,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 3.3,
+                "RainWeekly": 3.3,
+                "RainMonthly": 33.8,
+                "RainYearly": 544.8
             }
         },
         {
@@ -660,7 +498,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 1.2,
+                "RainDaily": 3.5,
+                "RainWeekly": 3.5,
+                "RainMonthly": 34.0,
+                "RainYearly": 545.0
             }
         },
         {
@@ -677,7 +520,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 3.0,
+                "RainDaily": 3.8,
+                "RainWeekly": 3.8,
+                "RainMonthly": 34.3,
+                "RainYearly": 545.3
             }
         },
         {
@@ -694,7 +542,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 1.8,
+                "RainDaily": 3.8,
+                "RainWeekly": 3.8,
+                "RainMonthly": 34.3,
+                "RainYearly": 545.3
             }
         },
         {
@@ -711,7 +564,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 1.2,
+                "RainDaily": 4.0,
+                "RainWeekly": 4.0,
+                "RainMonthly": 34.5,
+                "RainYearly": 545.5
             }
         },
         {
@@ -728,7 +586,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 4.0,
+                "RainWeekly": 4.0,
+                "RainMonthly": 34.5,
+                "RainYearly": 545.5
             }
         },
         {
@@ -745,7 +608,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 4.3,
+                "RainWeekly": 4.3,
+                "RainMonthly": 34.8,
+                "RainYearly": 545.8
             }
         },
         {
@@ -762,7 +630,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 1.8,
+                "RainDaily": 4.3,
+                "RainWeekly": 4.3,
+                "RainMonthly": 34.8,
+                "RainYearly": 545.8
             }
         },
         {
@@ -779,7 +652,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 1.2,
+                "RainDaily": 4.5,
+                "RainWeekly": 4.5,
+                "RainMonthly": 35.0,
+                "RainYearly": 546.0
             }
         },
         {
@@ -796,7 +674,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.2,
+                "RainDaily": 4.5,
+                "RainWeekly": 4.5,
+                "RainMonthly": 35.0,
+                "RainYearly": 546.0
             }
         },
         {
@@ -813,7 +696,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 4.8,
+                "RainWeekly": 4.8,
+                "RainMonthly": 35.3,
+                "RainYearly": 546.3
             }
         },
         {
@@ -830,7 +718,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 4.8,
+                "RainWeekly": 4.8,
+                "RainMonthly": 35.3,
+                "RainYearly": 546.3
             }
         },
         {
@@ -847,7 +740,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 5.1,
+                "RainWeekly": 5.1,
+                "RainMonthly": 35.6,
+                "RainYearly": 546.6
             }
         },
         {
@@ -864,7 +762,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 0.0,
+                "RainWeekly": 5.1,
+                "RainMonthly": 35.6,
+                "RainYearly": 546.6
             }
         },
         {
@@ -881,7 +784,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 1.2,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -898,7 +806,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.2,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -915,7 +828,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -932,7 +850,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -949,7 +872,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -966,7 +894,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -983,7 +916,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -1000,7 +938,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 0.2,
+                "RainWeekly": 5.3,
+                "RainMonthly": 35.8,
+                "RainYearly": 546.8
             }
         },
         {
@@ -1017,7 +960,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 0.5,
+                "RainWeekly": 5.6,
+                "RainMonthly": 36.1,
+                "RainYearly": 547.1
             }
         },
         {
@@ -1034,7 +982,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 0.5,
+                "RainWeekly": 5.6,
+                "RainMonthly": 36.1,
+                "RainYearly": 547.1
             }
         },
         {
@@ -1051,7 +1004,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 0.5,
+                "RainWeekly": 5.6,
+                "RainMonthly": 36.1,
+                "RainYearly": 547.1
             }
         },
         {
@@ -1068,7 +1026,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 3.0,
+                "RainDaily": 1.0,
+                "RainWeekly": 6.1,
+                "RainMonthly": 36.6,
+                "RainYearly": 547.6
             }
         },
         {
@@ -1085,7 +1048,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 3.0,
+                "RainDaily": 1.2,
+                "RainWeekly": 6.3,
+                "RainMonthly": 36.8,
+                "RainYearly": 547.8
             }
         },
         {
@@ -1102,7 +1070,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 3.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1119,7 +1092,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 1.8,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1136,7 +1114,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1153,7 +1136,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1170,7 +1158,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1187,7 +1180,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1204,7 +1202,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1221,7 +1224,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1238,7 +1246,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1255,7 +1268,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1272,7 +1290,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1289,7 +1312,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1306,7 +1334,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1323,7 +1356,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1340,7 +1378,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1357,7 +1400,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1374,7 +1422,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1391,7 +1444,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1408,7 +1466,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1425,7 +1488,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1442,7 +1510,12 @@
                 "WindDirection": "NNW",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1459,7 +1532,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1476,7 +1554,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1493,7 +1576,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1510,7 +1598,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1527,7 +1620,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1544,7 +1642,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1561,7 +1664,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1578,7 +1686,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1595,7 +1708,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1612,7 +1730,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1629,7 +1752,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1646,7 +1774,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1663,7 +1796,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1680,7 +1818,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1697,7 +1840,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1714,7 +1862,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1731,7 +1884,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1748,7 +1906,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1765,7 +1928,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1782,7 +1950,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1799,7 +1972,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1816,7 +1994,12 @@
                 "WindDirection": "SE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1833,7 +2016,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1850,7 +2038,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1867,7 +2060,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1884,7 +2082,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1901,7 +2104,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1918,7 +2126,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1935,7 +2148,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1952,7 +2170,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1969,7 +2192,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -1986,7 +2214,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2003,7 +2236,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2020,7 +2258,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2037,7 +2280,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2054,7 +2302,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2071,7 +2324,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2088,7 +2346,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2105,7 +2368,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2122,7 +2390,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2139,7 +2412,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2156,7 +2434,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2173,7 +2456,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2190,7 +2478,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2207,7 +2500,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2224,7 +2522,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2241,7 +2544,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2258,7 +2566,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2275,7 +2588,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2292,7 +2610,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 0,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2309,7 +2632,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2326,7 +2654,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2343,7 +2676,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2360,7 +2698,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2377,7 +2720,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2394,7 +2742,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2411,7 +2764,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2428,7 +2786,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2445,7 +2808,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2462,7 +2830,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2479,7 +2852,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2496,7 +2874,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2513,7 +2896,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2530,7 +2918,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2547,7 +2940,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2564,7 +2962,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2581,7 +2984,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2598,7 +3006,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2615,7 +3028,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2632,7 +3050,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2649,7 +3072,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2666,7 +3094,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2683,7 +3116,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2700,7 +3138,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2717,7 +3160,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2734,7 +3182,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2751,7 +3204,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2768,7 +3226,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2785,7 +3248,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2802,7 +3270,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2819,7 +3292,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2836,7 +3314,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2853,7 +3336,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2870,7 +3358,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2887,7 +3380,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2904,7 +3402,12 @@
                 "WindDirection": "SE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2921,7 +3424,12 @@
                 "WindDirection": "WNW",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2938,7 +3446,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2955,7 +3468,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2972,7 +3490,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -2989,7 +3512,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3006,7 +3534,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3023,7 +3556,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3040,7 +3578,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 2,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3057,7 +3600,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3074,7 +3622,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3091,7 +3644,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3108,7 +3666,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3125,7 +3688,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3142,7 +3710,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3159,7 +3732,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3176,7 +3754,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3193,7 +3776,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3210,7 +3798,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3227,7 +3820,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3244,7 +3842,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3261,7 +3864,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3278,7 +3886,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3295,7 +3908,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3312,7 +3930,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3329,7 +3952,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3346,7 +3974,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3363,7 +3996,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3380,7 +4018,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3397,7 +4040,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3414,7 +4062,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3431,7 +4084,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3448,7 +4106,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 15
+                "WindAvg": 15,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3465,7 +4128,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3482,7 +4150,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3499,7 +4172,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 12
+                "WindAvg": 12,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3516,7 +4194,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3533,7 +4216,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3550,7 +4238,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3567,7 +4260,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 20,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3584,7 +4282,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3601,7 +4304,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3618,7 +4326,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3635,7 +4348,12 @@
                 "WindDirection": "ESE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3652,7 +4370,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3669,7 +4392,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3686,7 +4414,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3703,7 +4436,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3720,7 +4458,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3737,7 +4480,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3754,7 +4502,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3771,7 +4524,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 13
+                "WindAvg": 13,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3788,7 +4546,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 22,
-                "WindAvg": 17
+                "WindAvg": 17,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3805,7 +4568,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3822,7 +4590,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3839,7 +4612,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3856,7 +4634,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 4,
-                "WindAvg": 0
+                "WindAvg": 0,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3873,7 +4656,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 10
+                "WindAvg": 10,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3890,7 +4678,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3907,7 +4700,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3924,7 +4722,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3941,7 +4744,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3958,7 +4766,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 24,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3975,7 +4788,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -3992,7 +4810,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4009,7 +4832,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4026,7 +4854,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4043,7 +4876,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 16
+                "WindAvg": 16,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4060,7 +4898,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4077,7 +4920,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4094,7 +4942,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4111,7 +4964,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4128,7 +4986,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4145,7 +5008,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4162,7 +5030,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4179,7 +5052,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4196,7 +5074,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4213,7 +5096,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4230,7 +5118,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4247,7 +5140,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4264,7 +5162,12 @@
                 "WindDirection": "NNW",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4281,7 +5184,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4298,7 +5206,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4315,7 +5228,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 5,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4332,7 +5250,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4349,7 +5272,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4366,7 +5294,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 20,
-                "WindAvg": 11
+                "WindAvg": 11,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4383,7 +5316,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 2
+                "WindAvg": 2,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4400,7 +5338,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4417,7 +5360,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 7,
-                "WindAvg": 1
+                "WindAvg": 1,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4434,7 +5382,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 3
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4451,7 +5404,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4468,7 +5426,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 9,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4485,7 +5448,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4502,7 +5470,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4519,7 +5492,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 11
+                "WindAvg": 11,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4536,7 +5514,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 11,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4553,7 +5536,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4570,7 +5558,12 @@
                 "WindDirection": "E",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4587,7 +5580,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 22,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4604,7 +5602,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 8
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4621,7 +5624,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 4
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4638,7 +5646,12 @@
                 "WindDirection": "NNE",
                 "WindChill": null,
                 "WindGust": 13,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4655,7 +5668,12 @@
                 "WindDirection": "N",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 5
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4672,7 +5690,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 6
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4689,7 +5712,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 10
+                "WindAvg": 10,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4706,7 +5734,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 18,
-                "WindAvg": 10
+                "WindAvg": 10,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4723,7 +5756,12 @@
                 "WindDirection": "ENE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 9
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4740,7 +5778,12 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 17,
-                "WindAvg": 7
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         },
         {
@@ -4757,7 +5800,364 @@
                 "WindDirection": "NE",
                 "WindChill": null,
                 "WindGust": 15,
-                "WindAvg": 10
+                "WindAvg": 10,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:11": {
+                "AbsPressure": 1023.3,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 84,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 11.1,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 12,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:16": {
+                "AbsPressure": 1023.1,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 84,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 11.1,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 18,
+                "WindAvg": 10,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:19": {
+                "AbsPressure": 1023.1,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 84,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 11.1,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 18,
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:25": {
+                "AbsPressure": 1023.0,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 85,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 10.9,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:31": {
+                "AbsPressure": 1023.0,
+                "DewPoint": 9,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 86,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 10.8,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 11,
+                "WindAvg": 6,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:37": {
+                "AbsPressure": 1023.1,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 86,
+                "SolarRadiation": 0.0,
+                "TempIn": 20.0,
+                "TempOut": 10.7,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 15,
+                "WindAvg": 9,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:43": {
+                "AbsPressure": 1022.9,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 86,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.9,
+                "TempOut": 10.6,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 15,
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:49": {
+                "AbsPressure": 1022.9,
+                "DewPoint": 9,
+                "Rain": 0.0,
+                "FeelsLike": 11,
+                "HumidityIn": 65,
+                "HumidityOut": 87,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.9,
+                "TempOut": 10.6,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 15,
+                "WindAvg": 8,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 21:55": {
+                "AbsPressure": 1022.8,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 65,
+                "HumidityOut": 87,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.9,
+                "TempOut": 10.5,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 18,
+                "WindAvg": 12,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:01": {
+                "AbsPressure": 1022.7,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 87,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.4,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 4,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:06": {
+                "AbsPressure": 1022.6,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 87,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.4,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 13,
+                "WindAvg": 3,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:12": {
+                "AbsPressure": 1022.7,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 88,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.3,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 12,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:18": {
+                "AbsPressure": 1022.7,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 88,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.3,
+                "WindDirection": "N",
+                "WindChill": null,
+                "WindGust": 13,
+                "WindAvg": 5,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:21": {
+                "AbsPressure": 1022.8,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 88,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.3,
+                "WindDirection": "NNE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 7,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:27": {
+                "AbsPressure": 1022.7,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 88,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.8,
+                "TempOut": 10.3,
+                "WindDirection": "ENE",
+                "WindChill": null,
+                "WindGust": 17,
+                "WindAvg": 12,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
+            }
+        },
+        {
+            "10/19/2026 22:32": {
+                "AbsPressure": 1022.4,
+                "DewPoint": 8,
+                "Rain": 0.0,
+                "FeelsLike": 10,
+                "HumidityIn": 64,
+                "HumidityOut": 88,
+                "SolarRadiation": 0.0,
+                "TempIn": 19.7,
+                "TempOut": 10.3,
+                "WindDirection": "NE",
+                "WindChill": null,
+                "WindGust": 18,
+                "WindAvg": 11,
+                "RainRate": 0.0,
+                "RainDaily": 1.5,
+                "RainWeekly": 6.6,
+                "RainMonthly": 37.1,
+                "RainYearly": 548.1
             }
         }
     ]
